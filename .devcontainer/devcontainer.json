@@ -1,0 +1,12 @@
+{
+    "name": "reco-forge",
+    "image": "reco-forge-devcontainer",
+    "extensions": [
+        "rust-lang.rust-analyzer",
+        "GitHub.copilot"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "rust-analyzer.checkOnSave.command": "clippy"
+    }
+}
