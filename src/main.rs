@@ -1,5 +1,5 @@
 extern crate reco_forge;
 
 fn main() {
-	println!("Hello, world!");
+	println!("Hello, world");
 }
