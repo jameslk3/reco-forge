@@ -1,1 +1,6 @@
 /target
+
+client id: op1z4ho7doyt2morgsh11wezj9yjc4
+client secret: rstf0id2yat17nqir9xa9gz3hzbvf1
+curl -X POST --data "client_id=op1z4ho7doyt2morgsh11wezj9yjc4&client_secret=rstf0id2yat17nqir9xa9gz3hzbvf1&grant_type=client_credentials" https://id.twitch.tv/oauth2/token
+{"access_token":"eddsix0pyczrhnghvhidqworxgv4od","expires_in":5146503,"token_type":"bearer"}
