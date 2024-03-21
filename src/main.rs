@@ -1,3 +1,6 @@
+extern crate reco_forge;
+
 fn main() {
-	println!("Hello, world!");
+	reco_forge::print_hello();
+	println!("Hello from main");
 }
