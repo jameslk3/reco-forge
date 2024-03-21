@@ -1,6 +1,5 @@
-pub mod other;
+extern crate reco_forge;
 
 fn main() {
-	other::print_hello();
-	println!("Hello from main");
+	println!("Hello, world");
 }
