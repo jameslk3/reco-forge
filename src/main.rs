@@ -1,9 +1,8 @@
-extern crate reco_forge;
-
-use reco_forge::{Data, extract_data};
+mod lib;
+use lib::functions::*;
+use lib::types::*;
 
 use candle_transformers::models::bert::{BertModel, Config, DTYPE};
-
 use anyhow::{Error as E, Result};
 use candle_core::Tensor;
 use candle_nn::VarBuilder;
@@ -91,6 +90,8 @@ impl Args {
 }
 
 fn main() -> Result<()> {
+    // let nodes = extract_data(&String::from("data.json")).unwrap();
+
     use tracing_chrome::ChromeLayerBuilder;
     use tracing_subscriber::prelude::*;
 
@@ -198,11 +199,4 @@ fn main() -> Result<()> {
 
 pub fn normalize_l2(v: &Tensor) -> Result<Tensor> {
     Ok(v.broadcast_div(&v.sqr()?.sum_keepdim(1)?.sqrt()?)?)
-}
-
-fn print(vector: Vec<Data>) {
-	for datum in vector {
-		println!("{}", datum);
-		println!("");
-	}
 }
