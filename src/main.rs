@@ -138,22 +138,9 @@ fn main() -> Result<()> {
     let embeddings = normalize_l2(&embeddings)?;
     println!("pooled embeddings {:?}", embeddings.shape());
 
-    let mut similarities = vec![];
     for i in 0..n_sentences {
         let e_i = embeddings.get(i)?;
-        for j in (i + 1)..n_sentences {
-            let e_j = embeddings.get(j)?;
-            let sum_ij = (&e_i * &e_j)?.sum_all()?.to_scalar::<f32>()?;
-            let sum_i2 = (&e_i * &e_i)?.sum_all()?.to_scalar::<f32>()?;
-            let sum_j2 = (&e_j * &e_j)?.sum_all()?.to_scalar::<f32>()?;
-            let cosine_similarity = sum_ij / (sum_i2 * sum_j2).sqrt();
-            similarities.push((cosine_similarity, i, j))
-         }
-    }
-    similarities.sort_by(|u, v| v.0.total_cmp(&u.0));
-    for &(score, i, j) in similarities[..5].iter() {
-        println!("score: {score:.2} '{}' '{}'", sentences[i], sentences[j])
-    
+
     }
     Ok(())
 }
