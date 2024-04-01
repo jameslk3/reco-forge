@@ -1,6 +1,6 @@
 {
     "name": "reco-forge",
-    "image": "reco-forge-devcontainer",
+    "image": "rusty-image",
     "extensions": [
         "rust-lang.rust-analyzer",
         "GitHub.copilot"
