@@ -43,6 +43,10 @@ pub(crate) mod functions {
         return Ok(vector_of_data);
     }
 
+    pub fn fill_embedding(vector: &Vec<Data>) {
+        
+    }
+
     
 }
 
