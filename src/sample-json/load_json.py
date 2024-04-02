@@ -49,10 +49,11 @@ with open(filename, "r") as f:
     final_json = []
     for game in data:
         final_json.append({
+            "id": game["id"],
             "name": game["name"],
             "summary": game["summary"],
             "tags": [genre["name"] for genre in game["genres"]]
         })
-    with open("games_clean.json", "w") as f:
+    with open("games_clean_mini.json", "w") as f:
         json.dump(final_json, f, indent=2)
         
