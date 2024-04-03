@@ -1,5 +1,6 @@
 pub mod types {
-    use candle_core::Tensor;
+
+    use candle::Tensor;
     use serde::Deserialize;
     use std::fmt;
 
@@ -166,7 +167,7 @@ pub mod functions {
 
     use super::types::Args;
     use anyhow::{Error as E, Result};
-    use candle_core::Tensor;
+    use candle::Tensor;
     use clap::Parser;
     use super::utils::*;
 
@@ -186,8 +187,11 @@ pub mod functions {
         let tokens = tokenizer
             .encode_batch(summaries.to_vec(), true)
             .map_err(E::msg)?;
-        
 
+        for x in 0..tokens.len() {
+            println!("{:?}", tokens[x].get_tokens().join(" "));
+        }
+        
         // Convert the tokens to tensors
         let token_ids = tokens
             .iter()
@@ -267,7 +271,7 @@ pub(crate) mod utils {
     }
     */
 
-    use candle_core::Tensor;
+    use candle::Tensor;
     use anyhow::Result;
 
     pub fn normalize_l2(v: &Tensor) -> Result<Tensor> {
