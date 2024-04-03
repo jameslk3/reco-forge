@@ -1,4 +1,5 @@
-pub mod types {
+pub(crate) mod types {
+    use candle_core::Tensor;
     use serde::Deserialize;
     use std::fmt;
 
@@ -141,6 +142,7 @@ pub mod functions {
     }
 
     pub fn get_embeddings(data: &Vec<Data>) -> Result<HashMap<i32, Tensor>> {
+      
         let args = Args::parse();
 
         let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
@@ -174,6 +176,7 @@ pub mod functions {
         println!("generated embeddings {:?}", embeddings.shape());
 
         // Pool the embeddings
+
         let (_n_sentence, n_tokens, _hidden_size) = embeddings.dims3()?;
         let embeddings = (embeddings.sum(1)? / (n_tokens as f64))?;
         let embeddings = normalize_l2(&embeddings)?;

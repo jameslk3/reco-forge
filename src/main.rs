@@ -7,5 +7,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let embedding_map = get_embeddings(&nodes);
     let end = start.elapsed();
     println!("Time elapsed: {:?}", end);
+
     Ok(())
 }
