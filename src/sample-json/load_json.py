@@ -47,7 +47,7 @@ with open(filename, "w") as f:
 with open(filename, "r") as f:
     data = json.load(f)
     final_json = []
-    for game in data[0:10]:
+    for game in data[0:100]:
         final_json.append({
             "id": game["id"],
             "name": game["name"],
