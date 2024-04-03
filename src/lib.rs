@@ -5,10 +5,11 @@ pub(crate) mod types {
 
     #[derive(Debug, Deserialize, Clone)]
     pub struct Data {
+        pub id: i32,
         name: String,
-        summary: String,
-        embedding: Tensor,
-        tags: Vec<String>
+        pub summary: String,
+        pub embedding: Option<Vec<f32>>,
+        tags: Vec<String>,
     }
 
     impl fmt::Display for Data {
@@ -19,16 +20,16 @@ pub(crate) mod types {
         }
     }
 
-    use candle_transformers::models::bert::{BertModel, Config, DTYPE};
-    use tokenizers::{PaddingParams, Tokenizer};
     use anyhow::{Error as E, Result};
+    use candle_nn::VarBuilder;
+    use candle_transformers::models::bert::{BertModel, Config, DTYPE};
     use clap::Parser;
     use hf_hub::{api::sync::Api, Repo, RepoType};
-    use candle_nn::VarBuilder;
+    use tokenizers::Tokenizer;
 
     #[derive(Parser, Debug)]
     #[command(author, version, about, long_about = None)]
-    pub struct Args {
+    pub(crate) struct Args {
         /// Run on CPU rather than on GPU.
         #[arg(long)]
         cpu: bool,
@@ -66,7 +67,7 @@ pub(crate) mod types {
     }
 
     impl Args {
-        pub fn build_model_and_tokenizer(&self) -> Result<(BertModel, Tokenizer)> {
+        pub(crate) fn build_model_and_tokenizer(&self) -> Result<(BertModel, Tokenizer)> {
             let device = candle_examples::device(self.cpu)?;
             let default_model = "sentence-transformers/all-MiniLM-L6-v2".to_string();
             let default_revision = "refs/pr/21".to_string();
@@ -106,62 +107,58 @@ pub(crate) mod types {
     }
 }
 
-pub(crate) mod functions {
-    use std::fs::File;
+pub mod functions {
     use super::types::Data;
-    use super::types::Args;
-
-    use candle_transformers::models::bert::{BertModel, Config, DTYPE};
-    use anyhow::{Error as E, Result};
-    use candle_core::Tensor;
-    use candle_nn::VarBuilder;
-    use clap::Parser;
-    use hf_hub::{api::sync::Api, Repo, RepoType};
-    use tokenizers::{PaddingParams, Tokenizer};
+    use std::fs::File;
 
     /// Receives the path of a JSON file as a &String. The function tries to open
     /// the file. If it doesn't, it will return Err.
     /// After it opens the file, it deserializes the JSON file into a vector of Data objects.
     /// If it successfully does so, it will return Ok. If it doesn't, it will return Err.
-    /// 
+    ///
     /// @param `file_name` - a String containing the file path of the JSON file
-    /// 
-    /// @return `Ok()` with the vector of data encapsulated in a `Result` enum [OR] `Err()` if the 
+    ///
+    /// @return `Ok()` with the vector of data encapsulated in a `Result` enum [OR] `Err()` if the
     /// file didn't open or didn't deserialize
     pub fn extract_data(file_name: &String) -> Result<Vec<Data>, ()> {
-
         // Opens file
         let file = File::open(file_name).expect("File didn't open");
 
         // Deserializes into Data object
-        let vector_of_data: Vec<Data> = serde_json::from_reader(file).expect("Deserialization failed");
+        let vector_of_data: Vec<Data> =
+            serde_json::from_reader(file).expect("Deserialization failed");
 
         return Ok(vector_of_data);
     }
 
-    pub fn get_embeddings(data: &mut Vec<Data>) {
+    use super::types::Args;
+    use anyhow::{Error as E, Result};
+    use candle_core::Tensor;
+    use clap::Parser;
+    use std::collections::HashMap;
+
+    pub fn normalize_l2(v: &Tensor) -> Result<Tensor> {
+        Ok(v.broadcast_div(&v.sqr()?.sum_keepdim(1)?.sqrt()?)?)
+    }
+
+    pub fn get_embeddings(data: &Vec<Data>) -> Result<HashMap<i32, Tensor>> {
+      
         let args = Args::parse();
 
         let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
         let device = &model.device;
 
-        let sentences = [
-            "The cat sits outside",
-            "A man is playing guitar",
-            "I love pasta",
-            "The new movie is awesome",
-            "The cat plays in the garden",
-            "A woman watches TV",
-            "The new movie is so great",
-            "Do you like pizza?",
-        ];
-        let n_sentences = sentences.len();
         if let Some(pp) = tokenizer.get_padding_mut() {
             pp.strategy = tokenizers::PaddingStrategy::BatchLongest
         }
+
+        // Tokenize the data
+        let summaries: Vec<&str> = data.iter().map(|d| d.summary.as_str()).collect();
         let tokens = tokenizer
-            .encode_batch(sentences.to_vec(), true)
+            .encode_batch(summaries.to_vec(), true)
             .map_err(E::msg)?;
+
+        // Convert the tokens to tensors
         let token_ids = tokens
             .iter()
             .map(|tokens| {
@@ -173,24 +170,26 @@ pub(crate) mod functions {
         let token_ids = Tensor::stack(&token_ids, 0)?;
         let token_type_ids = token_ids.zeros_like()?;
         println!("running inference on batch {:?}", token_ids.shape());
+
+        // Get the embeddings
         let embeddings = model.forward(&token_ids, &token_type_ids)?;
         println!("generated embeddings {:?}", embeddings.shape());
-        // Apply some avg-pooling by taking the mean embedding value for all tokens (including padding)
+
+        // Pool the embeddings
+
         let (_n_sentence, n_tokens, _hidden_size) = embeddings.dims3()?;
         let embeddings = (embeddings.sum(1)? / (n_tokens as f64))?;
         let embeddings = normalize_l2(&embeddings)?;
         println!("pooled embeddings {:?}", embeddings.shape());
 
-        for i in 0..n_sentences {
-            let embedding = embeddings.get(i)?;
-            
+        // Create a hashmap mapping the id to the embeddings
+        let mut embeddings_map = HashMap::new();
+        for (i, d) in data.iter().enumerate() {
+            embeddings_map.insert(d.id, embeddings.get(i)?);
         }
-    }
 
-    fn normalize_l2(v: &Tensor) -> Result<Tensor> {
-        Ok(v.broadcast_div(&v.sqr()?.sum_keepdim(1)?.sqrt()?)?)
+        Ok(embeddings_map)
     }
-
 }
 
 pub(crate) mod utils {
