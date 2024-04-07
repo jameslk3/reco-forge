@@ -1,5 +1,5 @@
-use reco_forge::types::*;
-use reco_forge::functions::*;
+use reco_forge::helpers::types::*;
+use reco_forge::helpers::pre_recommendation::*;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let start = std::time::Instant::now();
