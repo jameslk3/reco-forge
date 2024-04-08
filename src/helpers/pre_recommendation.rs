@@ -25,7 +25,7 @@ pub fn extract_data(file_name: &String) -> Result<Vec<DataWithEmbeddings>, ()> {
         let datum: DataWithEmbeddings = DataWithEmbeddings::new(
             vector_of_data[x].id.clone(),
             vector_of_data[x].name.clone(),
-            vector_of_data[x].summary.clone(),
+            filter(vector_of_data[x].summary.clone().to_lowercase()),
             vector_of_data[x].tags.clone(),
             None,
         );
