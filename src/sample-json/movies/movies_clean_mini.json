@@ -1,0 +1,100 @@
+[
+  {
+    "id": 155,
+    "name": "The Dark Knight",
+    "summary": "superhero identity organized mastermind batman powers super joker sadism based imax attorney crime hero secret scarecrow tragic district comic vigilante city dc chaos criminal fighter comics gotham on villain",
+    "tags": [
+      "Drama",
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 27205,
+    "name": "Inception",
+    "summary": "heist sleep female loss lover dream redemption kidnapping of subconsciousness hero",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction",
+      "Mystery",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "The Shawshank Redemption",
+    "summary": "police escape wrongful framed murder prison board delinquent from 1940s brutality cell corruption for imprisonment parole",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 550,
+    "name": "Fight Club",
+    "summary": "violence dual hate rage and group support identity nihilism dystopia insomnia",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 157336,
+    "name": "Interstellar",
+    "summary": "station farmhouse wormhole the scientist son artificial dystopia paradox single relationship world relationships imax mechanics family astronaut race time relativity hole robot nasa farmer travel father astrophysics famine black saving gravity courage quantum daughter spaceship rescue expedition parent zero space against intelligence",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 680,
+    "name": "Pulp Fiction",
+    "summary": "contest heirloom transporter redemption fiction junkyard dealer green drug theft boss crime brothel pulp massage al reference dance money brutality ambiguous kamikaze ending to boxer briefcase stolen",
+    "tags": [
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "The Godfather",
+    "summary": "organized of rise at mafia patriarch family 1940s power boss crime father lawyer first mob italy love italian loss american to sight",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Forrest Gump",
+    "summary": "running son shrimping veteran mentally soldier relationship relationships flashback based family bully war amputee mother friendship love military hippie hugging disabled novel wounded bench vietnam on park",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "The Lord of the Rings: The Return of the King",
+    "summary": "violence and (tolkien) of troll suspicion sorcery based ghost war trilogy honor quest brutality elves bravery sword end middle-earth novel on orcs",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 118340,
+    "name": "Guardians of the Galaxy",
+    "summary": "universe outer spaceship adventurer duringcreditsstinger cinematic comic aftercreditsstinger orphan space marvel",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ]
+  }
+]
