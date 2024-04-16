@@ -6,15 +6,38 @@ use crate::helpers::{types::Args, utils::normalize_l2};
 use super::types::Data;
 
 
-pub fn recommendations(map: HashMap<Data, Option<Tensor>>, description_input: String, tags_input: String) -> Result<Vec<String>, ()> {
+pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &String, tags_input: &String) -> Result<Vec<String>, ()> {
     return Ok(Vec::new());
 }
 
-fn filter_by_tags(map: HashMap<Data, Option<Tensor>>) -> Result<HashMap<Data, Option<Tensor>>, ()> {
-    return Ok(HashMap::new());
+/// Receives the input of what the user wants as tags in a String.
+/// The function will return a new `HashMap` with the nodes without the desired tags removed.
+///
+/// @param `map` - a `HashMap<Data, Option<Tensor>>`, which contains our nodes,
+///  `tags_input` - a String containing what the user wants as tags
+///
+/// @return `Ok()` with a `HashMap<Data, Option<Tensor>>`, which is the new map with nodes w/o the desired tags removed [OR] `Err()`
+fn filter_by_tags(map: &HashMap<Data, Option<Tensor>>, tags_input: &String) -> Result<HashMap<Data, Option<Tensor>>, ()> {
+    let split: Vec<&str> = tags_input.split(',').collect();
+    let mut new_map: HashMap<Data, Option<Tensor>> = HashMap::new();
+    for str in split {
+        let trimmed = str.trim();
+        for (key, value) in map {
+            if key.tags.contains(&String::from(trimmed)) {
+                new_map.insert(key.clone(), value.clone());
+            }
+        }
+    }
+    Ok(new_map)
 }
 
-fn embedding_for_input(description_input: String) -> Result<Option<Tensor>> {
+/// Receives the input of what the user wants suggested as a String.
+/// The function will return the embeddings of the String in question.
+///
+/// @param `description_input` - a String containing what the user wants suggested
+///
+/// @return `Ok()` with a Tensor (embedding) generated from the string [OR] `Err()`
+fn embedding_for_input(description_input: &String) -> Result<Option<Tensor>> {
     let args = Args::parse();
 
     let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
