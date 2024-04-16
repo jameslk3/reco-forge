@@ -1,7 +1,7 @@
-use super::types::DataWithEmbeddings;
-
 use super::types::Data;
+use std::collections::HashMap;
 use std::fs::File;
+use serde_json::from_reader;
 
 /// Receives the path of a JSON file as a &String. The function tries to open
 /// the file. If it doesn't, it will return Err.
@@ -12,27 +12,28 @@ use std::fs::File;
 ///
 /// @return `Ok()` with the vector of data encapsulated in a `Result` enum [OR] `Err()` if the
 /// file didn't open or didn't deserialize
-pub fn extract_data(file_name: &String) -> Result<Vec<DataWithEmbeddings>, ()> {
+pub fn extract_data(file_name: &String) -> Result<HashMap<Data, Option<Tensor>>, ()> {
     // Opens file
-    let file = File::open(file_name).expect("File didn't open");
+    let file_wrapped = File::open(file_name);
+    if file_wrapped.is_err() {
+        return Err(());
+    }
+    let file = file_wrapped.unwrap();
 
     // Deserializes into Data object
-    let vector_of_data: Vec<Data> = serde_json::from_reader(file).expect("Deserialization failed");
+    let vector_of_data_wrapped: Result<Vec<Data>, serde_json::Error> = from_reader(file);
+    if vector_of_data_wrapped.is_err() {
+        return Err(());
+    }
+    let vector_of_data: Vec<Data> = vector_of_data_wrapped.unwrap();
+    
+    let mut vector_to_map: HashMap<Data, Option<Tensor>> = HashMap::new();
 
-    let mut vector_of_data_mappings: Vec<DataWithEmbeddings> = Vec::new();
-
-    for x in 0..vector_of_data.len() {
-        let datum: DataWithEmbeddings = DataWithEmbeddings::new(
-            vector_of_data[x].id.clone(),
-            vector_of_data[x].name.clone(),
-            vector_of_data[x].summary.clone(),
-            vector_of_data[x].tags.clone(),
-            None,
-        );
-        vector_of_data_mappings.push(datum);
+    for data in vector_of_data {
+        vector_to_map.insert(data.clone(), None);
     }
 
-    return Ok(vector_of_data_mappings);
+    return Ok(vector_to_map);
 }
 
 use super::types::Args;
@@ -41,7 +42,7 @@ use anyhow::{Error as E, Result};
 use candle::{Tensor, Device};
 use clap::Parser;
 
-pub fn get_embeddings(data: &mut Vec<DataWithEmbeddings>) -> Result<()> {
+pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMap<Data, Option<Tensor>>> {
     let args = Args::parse();
 
     let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
@@ -52,7 +53,10 @@ pub fn get_embeddings(data: &mut Vec<DataWithEmbeddings>) -> Result<()> {
     }
 
     // Tokenize the data
-    let summaries: Vec<&str> = data.iter().map(|d| d.summary.as_str()).collect();
+    let mut summaries: Vec<&str> = Vec::new();
+    for (key, value) in data.iter() {
+        summaries.push(key.summary.as_str());
+    }
     let tokens = tokenizer
         .encode_batch(summaries.to_vec(), true)
         .map_err(E::msg)?;
@@ -85,11 +89,14 @@ pub fn get_embeddings(data: &mut Vec<DataWithEmbeddings>) -> Result<()> {
     println!("pooled embeddings {:?}", embeddings.shape());
 
     // Insert embeddings into data
-    for x in 0..data.len() {
-        data[x].embedding = Some(embeddings.get(x).unwrap());
+    let mut counter: usize = 0;
+    let mut new_map: HashMap<Data, Option<Tensor>> = HashMap::new();
+    for (key, value) in data.iter() {
+        new_map.insert(key.clone(), Some(embeddings.get(counter).unwrap()));
+        counter += 1;
     }
 
-    Ok(())
+    Ok(new_map)
 }
 
 // pub fn trial_get_embeddings(data: &mut Vec<DataWithEmbeddings>) -> Result<()> {

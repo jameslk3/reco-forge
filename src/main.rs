@@ -1,24 +1,33 @@
+use std::collections::HashMap;
+
 use reco_forge::helpers::types::*;
 use reco_forge::helpers::pre_recommendation::*;
+use text_io::read;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // let mut nodes: Vec<DataWithEmbeddings> = extract_data(&String::from("./src/sample-json/games_clean_mini.json")).unwrap();
-    // let _result = get_embeddings(&mut nodes);
-    // let end = start.elapsed();
-    // println!("Time elapsed: {:?}", end);
-
-	// for x in 0..nodes.len() {
-	// 	if nodes[x].embedding.is_some() {
-	// 		println!("THERE IS SOMETHING IN THE EMBEDDING {}", x);
-	// 	} else {
-	// 		println!("NOPE {}", x);
-	// 	}
-	// }
-
-	other_main()?;
-
+    println!("Input a file path:");
+    let mut path: String = read!();
+    let mut nodes_wrapped: Result<HashMap<Data, Option<Tensor>>, ()> = extract_data(&String::from(path));
+    while nodes_wrapped.is_err() {
+        println!("File path is not valid or file cannot be deserialized, please input the correct file path and try again:");
+        path = read!();
+        nodes_wrapped = extract_data(&String::from(path));
+    }
+    let mut nodes: HashMap<Data, Option<Tensor>> = nodes_wrapped.unwrap();
+    let result = get_embeddings(&mut nodes).unwrap();
+    
+    let mut counter = 0;
+    for (_key, value) in result.iter() {
+	    if value.is_some() {
+		    println!("THERE IS SOMETHING IN THE EMBEDDING {}", counter);
+	    } else {
+		    println!("NOPE {}", counter);
+	    }
+        counter += 1;
+    }
     Ok(())
 }
+
 
 use candle_transformers::models::distilbert::{Config, DistilBertModel, DTYPE};
 
@@ -64,6 +73,7 @@ struct Args {
     normalize_embeddings: bool,
 }
 
+/*
 impl Args {
     fn build_model_and_tokenizer(&self) -> Result<(DistilBertModel, Tokenizer)> {
         let device = candle_examples::device(self.cpu)?;
@@ -109,73 +119,7 @@ fn get_mask(size: usize, device: &Device) -> Tensor {
         .collect();
     Tensor::from_slice(&mask, (size, size), device).unwrap()
 }
-
-fn other_main() -> Result<()> {
-
-	let start = std::time::Instant::now();
-
-    use tracing_chrome::ChromeLayerBuilder;
-    use tracing_subscriber::prelude::*;
-
-	let data = extract_data(&String::from("./src/sample-json/games_clean_mini.json")).unwrap();
-
-    let args = Args::parse();
-    let _guard = if args.tracing {
-        println!("tracing...");
-        let (chrome_layer, guard) = ChromeLayerBuilder::new().build();
-        tracing_subscriber::registry().with(chrome_layer).init();
-        Some(guard)
-    } else {
-        None
-    };
-    let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
-    let device = &model.device;
-
-    let tokenizer = tokenizer
-        .with_padding(None)
-        .with_truncation(None)
-        .map_err(E::msg)?;
-
-	let summaries: Vec<&str> = data.iter().map(|d| d.summary.as_str()).collect();
-    let tokens_list: Vec<Vec<u32>> = {
-		summaries.into_iter().map(|summary| {
-			tokenizer
-			.encode(summary, true)
-			.map_err(E::msg)
-			.unwrap()
-			.get_ids()
-			.to_vec()
-		}).collect()
-	};
-
-	let mut token_ids_list: Vec<Tensor> = Vec::new();
-	let mut mask_list: Vec<Tensor> = Vec::new();
-	for tokens in tokens_list {
-		let token_id = Tensor::new(&tokens[..], device)?.unsqueeze(0)?;
-		let mask = get_mask(tokens.len(), device);
-		token_ids_list.push(token_id);
-		mask_list.push(mask);
-	}
-
-	let before_forward = start.elapsed();
-	println!("before forward {:?}", before_forward);
-	let mut embedding_list = Vec::new();
-	// let (tx, rx) = std::sync::mpsc::channel();
-	for (index, (token_ids, mask)) in token_ids_list.iter().zip(mask_list.iter()).enumerate() {
-		
-		let embedding = model.forward(&token_ids, mask)?;
-		let elapsed = start.elapsed();
-		println!("one embedding {:?}", elapsed);
-		embedding_list.push(embedding);
-	}
-
-    // println!("token_ids: {:?}", token_ids.to_vec2::<u32>());
-    // println!("mask: {:?}", mask.to_vec2::<u8>());
-
-	println!("{:?}", embedding_list.len());
-
-    Ok(())
-}
+*/
 
 pub fn normalize_l2(v: &Tensor) -> Result<Tensor> {
     Ok(v.broadcast_div(&v.sqr()?.sum_keepdim(1)?.sqrt()?)?)
