@@ -1,13 +1,46 @@
 use std::collections::HashMap;
 use anyhow::{Error as E, Result};
 use candle::Tensor;
+use candle_nn::embedding;
 use clap::Parser;
 use crate::helpers::{types::Args, utils::normalize_l2};
 use super::types::Data;
 
 
 pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &String, tags_input: &String) -> Result<Vec<String>, ()> {
-    return Ok(Vec::new());
+    let mut recommendations: Vec<String> = Vec::new();
+    let mut filtered_map = map.clone();
+    if tags_input != &String::from("NONE") {
+        let filtered_map_wrapped = filter_by_tags(map, tags_input);
+        if filtered_map_wrapped.is_err() {
+            return Err(());
+        }
+        filtered_map = filtered_map_wrapped.unwrap();
+    }
+    let embedding_wrapped = embedding_for_input(description_input);
+    if embedding_wrapped.is_err() {
+        return Err(());
+    }
+    let embedding = embedding_wrapped.unwrap().unwrap();
+    let a_dot_a_wrapped = &embedding * &embedding;
+    if a_dot_a_wrapped.is_err() {
+        return Err(());
+    }
+    let a_dot_a = a_dot_a_wrapped.unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
+    for (key, value) in filtered_map.iter() {
+        let map_embedding_wrapped = value.clone();
+        if map_embedding_wrapped.is_none() {
+            return Err(());
+        }
+        let map_embedding = map_embedding_wrapped.clone().unwrap();
+        let b_dot_b = (&map_embedding * &map_embedding).unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
+        let a_dot_b = (&embedding * &map_embedding).unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
+        let similarity = &a_dot_b / (&a_dot_a * &b_dot_b).sqrt();
+        if similarity >= 0.2 {
+            recommendations.push(key.clone().name);
+        }
+    }
+    return Ok(recommendations);
 }
 
 /// Receives the input of what the user wants as tags in a String.

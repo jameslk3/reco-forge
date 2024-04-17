@@ -1,8 +1,15 @@
+use core::time;
 use std::collections::HashMap;
+use std::io::stdout;
+use std::io::Write;
+use std::thread;
+use std::io::BufRead;
 
+use reco_forge::helpers::post_recommendation::recommendations;
 use reco_forge::helpers::types::*;
 use reco_forge::helpers::pre_recommendation::*;
 use text_io::read;
+use std::io;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Input a file path:");
@@ -24,6 +31,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 		    println!("NOPE {}", counter);
 	    }
         counter += 1;
+    }
+    println!("Input wanted tags. If you don't want to filter by tags, enter NONE");
+    let tags_input: String = read!();
+    println!("Input what you want.");
+    let description_input: String = read!();
+    // io::stdin().lock().read_line(&mut description_input).expect("problem");
+    let _ = stdout().flush();
+    println!("{}", description_input);
+    let recommendations = recommendations(&result, &description_input, &tags_input).unwrap();
+    for recommendation in recommendations {
+        println!("{}", recommendation);
     }
     Ok(())
 }
