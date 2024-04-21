@@ -1,14 +1,15 @@
 use std::collections::HashMap;
 use anyhow::{Error as E, Result};
 use candle::Tensor;
-use candle_nn::embedding;
 use clap::Parser;
 use crate::helpers::{types::Args, utils::normalize_l2};
 use super::types::Data;
+use super::types::Recommendations;
 
 
-pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &String, tags_input: &String) -> Result<Vec<String>, ()> {
-    let mut recommendations: Vec<String> = Vec::new();
+pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &String, tags_input: &String) -> Result<Recommendations, ()> {
+    let num_recommendations = 5;
+    let mut recommendations = Recommendations::new(num_recommendations);
     let mut filtered_map = map.clone();
     if tags_input != &String::from("NONE") {
         let filtered_map_wrapped = filter_by_tags(map, tags_input);
@@ -36,9 +37,7 @@ pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &
         let b_dot_b = (&map_embedding * &map_embedding).unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
         let a_dot_b = (&embedding * &map_embedding).unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
         let similarity = &a_dot_b / (&a_dot_a * &b_dot_b).sqrt();
-        if similarity >= 0.2 {
-            recommendations.push(key.clone().name);
-        }
+        recommendations.insert_or_skip(key.name.clone(), similarity);
     }
     return Ok(recommendations);
 }
