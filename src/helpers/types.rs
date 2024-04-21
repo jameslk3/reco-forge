@@ -11,7 +11,7 @@ use serde::Deserialize;
 use std::fmt;
 use tokenizers::Tokenizer;
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, Eq, PartialEq, Hash)]
 pub struct Data {
     pub id: i32,
     pub name: String,
