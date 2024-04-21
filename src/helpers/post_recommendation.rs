@@ -7,7 +7,7 @@ use super::types::Data;
 use super::types::Recommendations;
 
 
-pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &String, tags_input: &String) -> Result<Recommendations, ()> {
+pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &String, tags_input: &String) -> Result<Vec<String>, ()> {
     let num_recommendations = 5;
     let mut recommendations = Recommendations::new(num_recommendations);
     let mut filtered_map = map.clone();
@@ -39,7 +39,7 @@ pub fn recommendations(map: &HashMap<Data, Option<Tensor>>, description_input: &
         let similarity = &a_dot_b / (&a_dot_a * &b_dot_b).sqrt();
         recommendations.insert_or_skip(key.name.clone(), similarity);
     }
-    return Ok(recommendations);
+    return Ok(recommendations.get_recommendations());
 }
 
 /// Receives the input of what the user wants as tags in a String.
