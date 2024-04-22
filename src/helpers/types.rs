@@ -1,10 +1,7 @@
 use anyhow::{Error as E, Result as OtherResult};
-use candle::{Result, Tensor};
+use candle::{Device, Tensor};
 use candle_nn::VarBuilder;
-use candle_transformers::models::{
-    bert::{BertModel, Config, HiddenAct, DTYPE},
-    distilbert::DistilBertModel,
-};
+use candle_transformers::models::bert::{BertModel, Config, HiddenAct, DTYPE};
 use clap::Parser;
 use hf_hub::{api::sync::Api, Repo, RepoType};
 use serde::Deserialize;
@@ -95,7 +92,7 @@ pub struct Args {
 
 impl Args {
     pub(crate) fn build_model_and_tokenizer(&self) -> OtherResult<(BertModel, Tokenizer)> {
-        let device = candle_examples::device(self.cpu)?;
+        let device = Device::Cpu;
         let default_model = "sentence-transformers/all-MiniLM-L6-v2".to_string();
         let default_revision = "refs/pr/21".to_string();
         let (model_id, revision) = match (self.model_id.to_owned(), self.revision.to_owned()) {
@@ -133,43 +130,39 @@ impl Args {
         let model = BertModel::load(vb, &config)?;
         Ok((model, tokenizer))
     }
+}
 
-    // pub(crate) fn build_different_model_and_tokenizer(
-    //     &self,
-    // ) -> Result<(DistilBertModel, Tokenizer)> {
-    //     let device = candle_examples::device(self.cpu)?;
-    //     let default_model = "distilbert-base-uncased".to_string();
-    //     let default_revision = "main".to_string();
-    //     let (model_id, revision) = match (self.model_id.to_owned(), self.revision.to_owned()) {
-    //         (Some(model_id), Some(revision)) => (model_id, revision),
-    //         (Some(model_id), None) => (model_id, "main".to_string()),
-    //         (None, Some(revision)) => (default_model, revision),
-    //         (None, None) => (default_model, default_revision),
-    //     };
+pub struct Recommendations {
+    size: usize,
+    items: Vec<(String, f32)>,
+}
 
-    //     let repo = Repo::with_revision(model_id, RepoType::Model, revision);
-    //     let (config_filename, tokenizer_filename, weights_filename) = {
-    //         let api = Api::new()?;
-    //         let api = api.repo(repo);
-    //         let config = api.get("config.json")?;
-    //         let tokenizer = api.get("tokenizer.json")?;
-    //         let weights = if self.use_pth {
-    //             api.get("pytorch_model.bin")?
-    //         } else {
-    //             api.get("model.safetensors")?
-    //         };
-    //         (config, tokenizer, weights)
-    //     };
-    //     let config = std::fs::read_to_string(config_filename)?;
-    //     let config: Config = serde_json::from_str(&config)?;
-    //     let tokenizer = Tokenizer::from_file(tokenizer_filename).map_err(E::msg)?;
+impl Recommendations {
+    pub fn new(size: usize) -> Recommendations {
+        if size <= 0 {
+            panic!("Size must be greater than 0");
+        }
+        let mut temp = Vec::new();
+        for _ in 0..size {
+            temp.push((String::from("Couldn't find any more recommendations"), -1.1));
+        }
+        Recommendations { size: size,  items: temp }
+    }
 
-    //     let vb = if self.use_pth {
-    //         VarBuilder::from_pth(&weights_filename, DTYPE, &device)?
-    //     } else {
-    //         unsafe { VarBuilder::from_mmaped_safetensors(&[weights_filename], DTYPE, &device)? }
-    //     };
-    //     let model = DistilBertModel::load(vb, &config)?;
-    //     Ok((model, tokenizer))
-    // }
+    pub fn insert_or_skip(&mut self, item: String, score: f32) {
+        if score < self.items[self.size - 1].1 {
+            return;
+        }
+        self.items.remove(self.size - 1);
+        self.items.push((item, score));
+        self.items.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap());
+    }
+
+    pub fn get_recommendations(&self) -> Vec<String> {
+        let mut temp = Vec::new();
+        for (item, _) in &self.items {
+            temp.push(item.clone());
+        }
+        temp
+    }
 }
