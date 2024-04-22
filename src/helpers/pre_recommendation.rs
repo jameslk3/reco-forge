@@ -39,7 +39,7 @@ pub fn extract_data(file_name: &String) -> Result<HashMap<Data, Option<Tensor>>,
 use super::types::Args;
 use super::utils::*;
 use anyhow::{Error as E, Result};
-use candle::{Tensor, Device};
+use candle::Tensor;
 use clap::Parser;
 
 pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMap<Data, Option<Tensor>>> {
@@ -54,7 +54,7 @@ pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMa
 
     // Tokenize the data
     let mut summaries: Vec<&str> = Vec::new();
-    for (key, value) in data.iter() {
+    for (key, _value) in data.iter() {
         summaries.push(key.summary.as_str());
     }
     let tokens = tokenizer
@@ -87,7 +87,7 @@ pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMa
     // Insert embeddings into data
     let mut counter: usize = 0;
     let mut new_map: HashMap<Data, Option<Tensor>> = HashMap::new();
-    for (key, value) in data.iter() {
+    for (key, _value) in data.iter() {
         new_map.insert(key.clone(), Some(embeddings.get(counter).unwrap()));
         counter += 1;
     }
