@@ -12,6 +12,7 @@ candle-transformers = "0.3.1"
 clap = "4.4.11"
 hf-hub = "0.3.2"
 candle = { version = "0.3.1", package = "candle-core" }
+text_io = "0.1.12"
 
 serde = "1"
 serde_json = "1.0.108"

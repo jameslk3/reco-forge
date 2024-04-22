@@ -1,0 +1,4919 @@
+[
+  {
+    "id": 155,
+    "name": "The Dark Knight",
+    "summary": "organized dc powers identity gotham crime villain superhero fighter hero joker city district secret mastermind chaos batman sadism comics on criminal vigilante comic attorney based super scarecrow imax tragic",
+    "tags": [
+      "Drama",
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 27205,
+    "name": "Inception",
+    "summary": "heist hero subconsciousness sleep loss of dream kidnapping redemption female lover",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction",
+      "Mystery",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "The Shawshank Redemption",
+    "summary": "brutality police delinquent framed prison board for from imprisonment 1940s corruption escape murder wrongful cell parole",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 550,
+    "name": "Fight Club",
+    "summary": "dystopia and dual insomnia identity support group rage nihilism violence hate",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 157336,
+    "name": "Interstellar",
+    "summary": "relativity hole robot astronaut world intelligence relationship travel black father farmhouse artificial courage scientist rescue against quantum gravity farmer parent spaceship relationships space paradox family station mechanics wormhole astrophysics expedition daughter saving son dystopia time the single nasa imax zero famine race",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 680,
+    "name": "Pulp Fiction",
+    "summary": "money heirloom crime briefcase al junkyard pulp dance contest massage to brutality dealer drug ending theft boss ambiguous brothel fiction redemption stolen boxer reference green kamikaze transporter",
+    "tags": [
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "The Godfather",
+    "summary": "organized mafia crime mob father loss at to first american italian patriarch sight family boss power 1940s rise love of italy lawyer",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Forrest Gump",
+    "summary": "war shrimping mentally vietnam relationship running bully disabled wounded amputee bench novel relationships on friendship family flashback soldier hugging hippie based son park love mother veteran military",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "The Lord of the Rings: The Return of the King",
+    "summary": "war sword sorcery ghost honor trilogy elves quest orcs (tolkien) violence brutality novel end and on troll based suspicion middle-earth of bravery",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 118340,
+    "name": "Guardians of the Galaxy",
+    "summary": "duringcreditsstinger marvel outer spaceship universe orphan adventurer space aftercreditsstinger cinematic comic",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "summary": "hobbit sword mirror sorcery death mountain elves volcano uncle orcs dwarves (tolkien) password novel fireworks and on castle friend based middle-earth of a wizard",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 68718,
+    "name": "Django Unchained",
+    "summary": "rivalry odd friends bounty chases 19th hero racism black couple rescue django deadly shootout and friendship plantation revenge danger hunter society century dentist dual slave role aftercreditsstinger races",
+    "tags": [
+      "Drama",
+      "Western"
+    ]
+  },
+  {
+    "id": 603,
+    "name": "The Matrix",
+    "summary": "sacrifice virtual director vs world fight intelligence truth messiah insurgence artificial martial philosophy machine woman reality cyberpunk saving dystopia the man arts prophecy self gnosticism",
+    "tags": [
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "The Lord of the Rings: The Two Towers",
+    "summary": "hobbit sword sorcery mission elves orcs (tolkien) ring novel and on guide fort attack army based cave middle-earth explosive wizard",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Star Wars",
+    "summary": "rebellion war empire star android opera death jedi mission planet rescue force lightsaber totalitarianism galactic smuggler space hermit the galaxy stormtrooper",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 1891,
+    "name": "The Empire Strikes Back",
+    "summary": "rebellion training vs android evil opera jedi good droid storm rebel force lightsaber spaceship master space wookie asteroid the snow colony battle stormtrooper",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 77338,
+    "name": "The Intouchables",
+    "summary": "male duringcreditsstinger aristocrat friendship unlikely masseuse interracial",
+    "tags": [
+      "Drama",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 807,
+    "name": "Se7en",
+    "summary": "evisceration police pension self-fulfilling hate insomnia s.w.a.t. detective investigation dealer killer drug and rage impulsiveness pride prophecy vanity serial lust immoderateness",
+    "tags": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Back to the Future",
+    "summary": "odd romance life changing identity teenage chases guitar travel past water hidden partner lightning couple plutonium journey scientist against mad escapade destiny and out inventor misfit clock fish in delorean car terrorist sports time the tower of love disorder partners races race",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Science Fiction",
+      "Family"
+    ]
+  },
+  {
+    "id": 424,
+    "name": "Schindler's List",
+    "summary": "factory industry ii war camp biography the concentration world holocaust defense hero nazis",
+    "tags": [
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 106646,
+    "name": "The Wolf of Wall Street",
+    "summary": "fall stock humor sex and drug broker corruption rise sexuality crisis stockbroker bank biography wall marriage street",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 150540,
+    "name": "Inside Out",
+    "summary": "emotions moving unicorn duringcreditsstinger cartoon dream family imaginary 3d friend kids animation",
+    "tags": [
+      "Drama",
+      "Comedy",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 244786,
+    "name": "Whiplash",
+    "summary": "young humiliation conservatory city obsession montage teacher adult public drummer school york new band music jazz violence",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 24428,
+    "name": "The Avengers",
+    "summary": "based duringcreditsstinger marvel universe team alien on shield york aftercreditsstinger cinematic new superhero comic invasion",
+    "tags": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 16869,
+    "name": "Inglourious Basterds",
+    "summary": "scalp sacrifice ii cinema war paris dynamite anti world mexican france churchill swastika jew german sadism standoff violence guerrilla winston persecution masochism in bath nazis blood gore occupation gun of self knife hand semitism",
+    "tags": [
+      "Drama",
+      "Action",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": 205596,
+    "name": "The Imitation Game",
+    "summary": "ii war cryptography england world mathematician logician biography gay",
+    "tags": [
+      "History",
+      "Drama",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": 49026,
+    "name": "The Dark Knight Rises",
+    "summary": "underworld dc cover-up burglar identity gotham crime catwoman superhero fighter hero villainess city secret bomb batman drama comics destruction flood criminal vigilante terrorist terrorism time cat hostage imax tragic",
+    "tags": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 293660,
+    "name": "Deadpool",
+    "summary": "based duringcreditsstinger marvel the breaking anti mercenary on aftercreditsstinger self superhero fourth comic hero wall healing",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 14160,
+    "name": "Up",
+    "summary": "difference central duringcreditsstinger exploring and south floating the animation balloon air in age america",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 8587,
+    "name": "The Lion King",
+    "summary": "hyena wild loss scar parents meerkat uncle of redemption king boar shaman",
+    "tags": [
+      "Family",
+      "Animation",
+      "Drama"
+    ]
+  },
+  {
+    "id": 12445,
+    "name": "Harry Potter and the Deathly Hallows: Part 2",
+    "summary": "sacrifice frog school sorcerer 3d magic self wizard",
+    "tags": [
+      "Family",
+      "Fantasy",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Spirited Away",
+    "summary": "parent darkness anime witch japanese park world house youkai magic mythology ghost parallel amusement relationship bath child spirits",
+    "tags": [
+      "Fantasy",
+      "Adventure",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 210577,
+    "name": "Gone Girl",
+    "summary": "cheating husband based novel search person suspect missing on disappearance party crisis criminal murder wife lawyer marriage",
+    "tags": [
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Leon: The Professional",
+    "summary": "police training corruption relationship loneliness loss neighbor s.w.a.t. york film brutality characters neo-noir immigrant family revenge cult love of assassin hitman murder new tragic complex",
+    "tags": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 11324,
+    "name": "Shutter Island",
+    "summary": "based novel conspiracy island marshal 1950s on hospital theory psychiatric investigation u.s. hurricane",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 10681,
+    "name": "WALL\u00b7E",
+    "summary": "romantic comedy",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 497,
+    "name": "The Green Mile",
+    "summary": "jail people mentally electric death inmate black 1930s disabled magic prison novel depression realism chair on southern based row guard usa heal great healing",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "The Silence of the Lambs",
+    "summary": "psychological based novel cast killer cannibalism credits psychopath cannibal fbi on horror serial agent animal suspense in thriller",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 177572,
+    "name": "Big Hero 6",
+    "summary": "brother dimension dead another robot dilemma 3d hero relationship hate best boy superheroes teen revenge friend talent genius moral aftercreditsstinger",
+    "tags": [
+      "Adventure",
+      "Family",
+      "Animation",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Gladiator",
+    "summary": "battlefield philosopher successor senate empire world chariot rome arena relationship father gladiator ancient emperor combat barbarian dream horde blood daughter roman son century slavery sequence mother 2nd",
+    "tags": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 637,
+    "name": "Life Is Beautiful",
+    "summary": "sacrifice ii war fascism life deportation riddle world accident death mass story father one's loss jew charade riding bicycle bookshop teller and camp socialism dying fantasy persecution prisoner price peekaboo nazis concentration national murder of love self italy a",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 286217,
+    "name": "The Martian",
+    "summary": "astronaut for isolation stranded mars novel survival duringcreditsstinger spaceship on space explorer botanist based engineering deep nasa battle science",
+    "tags": [
+      "Drama",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 19995,
+    "name": "Avatar",
+    "summary": "war romance soul anti alien future 3d travel clash marine culture relations planet affair cgi and futuristic tribe space soldier society power colony love mind battle",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 120467,
+    "name": "The Grand Budapest Hotel",
+    "summary": "lobby hotel renaissance theft prot\u00e9g\u00e9 mentor european wartime relationship gunfight painting",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "The Godfather: Part II",
+    "summary": "italo-american body mafia corrupt melancholy man punches cuba of woman praise vororte revenge lawyer politician bloody child blood",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 857,
+    "name": "Saving Private Ryan",
+    "summary": "sacrifice ii flag war world normandy town parachute ss american deserted waffen beach crimes troops army memorial ship 1940s airplane self bravery omaha veteran cowardice military",
+    "tags": [
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Memento",
+    "summary": "insulin salesman neo-noir tattoo loss waitress flashback motel memory insurance revenge polaroid individual amnesia",
+    "tags": [
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 140607,
+    "name": "Star Wars: The Force Awakens",
+    "summary": "spaceship space android imax 3d opera jedi",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 1726,
+    "name": "Iron Man",
+    "summary": "stark marvel east superhero agent cinematic dealer arms on comic based counter universe terrorism middle man tony aftercreditsstinger malibu iron coulson",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 1124,
+    "name": "The Prestige",
+    "summary": "rivalry society illusion and obsession class secret tricks dying magic hostility death competition",
+    "tags": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 597,
+    "name": "Titanic",
+    "summary": "rich epic steerage star 3d salvage differences lovers snob class shipwreck titanic liner iceberg woman - crossed poor ship ocean man love imax tragic 1910s disaster panic",
+    "tags": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 673,
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "summary": "dark flying hero travel cutting child black best werewolf griffon magic cord witchcraft friend sorcerer's muggle time the broom school of aftercreditsstinger traitor apprentice",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 76341,
+    "name": "Mad Max: Fury Road",
+    "summary": "chase dystopia survival australia run dark the post-apocalyptic oil on future peak rescue convoy",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 694,
+    "name": "The Shining",
+    "summary": "isolation hotel loneliness writer snowed snow colorado off delusion season vision maze bartender hotelier alcoholic in ax caretaker",
+    "tags": [
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Batman Begins",
+    "summary": "rivalry dc romance himalaya vs powers identity gotham crime evil unfulfilled villain superhero fighter hero good past father city loss secret unfulfillment fighting martial comics and escapade by master on doctor vigilante comic society based super ninja the arts of love undercover tragic haunted",
+    "tags": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 1892,
+    "name": "Return of the Jedi",
+    "summary": "brother matter life star death hutt opera jedi relationship rebel emperor jabba and spaceship space sister ewoks the of battle",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 313369,
+    "name": "La La Land",
+    "summary": "los dance theater musical set movie angeles pianist actress jazz casting passion",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": 500,
+    "name": "Reservoir Dogs",
+    "summary": "cast betrayal rag group rendezvous heist one room jewelry tag plan warehouse all gone foreshadowing set iconic thief in gang male told mystery uneasy wrong psychopath escape alliance ensemble traitor flashback",
+    "tags": [
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "summary": "east skeleton exotic caribbean proposal tortuga capuchin wooden jamaica company governor monkey eye coin trading pirate alcoholic marriage india daughter ship swashbuckler island blacksmith aftercreditsstinger gold mutiny",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 671,
+    "name": "Harry Potter and the Philosopher's Stone",
+    "summary": "chosen world party hero cutting child one witch adult magic halloween novel christmas cord frog on fantasy young based the broom",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "Alien",
+    "summary": "suit xenomorph alien android marine outer biology female spaceship giger space protagonist parasite dystopia r. cowardice beheading h. countdown",
+    "tags": [
+      "Horror",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 263115,
+    "name": "Logan",
+    "summary": "marvel life powers future superhero troubled self-destruction past mutant margin on comic neo-western based super dystopia sequel cyborg the experiment scientific immortality",
+    "tags": [
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Finding Nemo",
+    "summary": "term tank protective barrier memory relationship child reef underwater father short loss harbor duringcreditsstinger fish reunion son clownfish missing aftercreditsstinger great",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "One Flew Over the Cuckoo's Nest",
+    "summary": "rights lunatic rebel asylum and wheelchair basic psychiatrist dying human insanity death rage self-destruction individual freedom hate",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 1422,
+    "name": "The Departed",
+    "summary": "police mafia friends boston training realtor state cop mobster undercover mole",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 769,
+    "name": "GoodFellas",
+    "summary": "organized mafia epic crime gangster story mass city tampa florida irish-american brooklyn york biography prison violence novel drug on based gore true 1970s extreme murder traffic new",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 207703,
+    "name": "Kingsman: The Secret Service",
+    "summary": "organization based duringcreditsstinger marvel united kingdom spy secret britain on agent great comic",
+    "tags": [
+      "Crime",
+      "Comedy",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 862,
+    "name": "Toy Story",
+    "summary": "boy rivalry door comes friends next life toy to friendship jealousy new",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "American History X",
+    "summary": "brother jail fascism nazism relationship hate skinhead basketball rape swastika xenophobia prison los neo-nazi angeles friendship family interracial neo school usa",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 100402,
+    "name": "Captain America: The Winter Soldier",
+    "summary": "based duringcreditsstinger captain marvel universe political washington on future shield aftercreditsstinger cinematic 3d superhero thriller comic d.c. america",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 37165,
+    "name": "The Truman Show",
+    "summary": "hidden camera dystopia claustrophobia pretend believe make reality show",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 152601,
+    "name": "Her",
+    "summary": "computer loneliness singularity artificial heartbreak love future near bittersweet intelligence transhumanism",
+    "tags": [
+      "Romance",
+      "Science Fiction",
+      "Drama"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Kill Bill: Vol. 1",
+    "summary": "underworld kung japan yakuza gore part coma arts sword wedding samurai bride animation revenge martial female fu blood",
+    "tags": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": 629,
+    "name": "The Usual Suspects",
+    "summary": "hungarian law sibling mastermind relatives theft criminal",
+    "tags": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 269149,
+    "name": "Zootopia",
+    "summary": "conspiracy fox anthropomorphism discrimination stereotype rabbit prejudice rookie person urban missing cop animals protagonist 3d injustice female",
+    "tags": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 269149,
+    "name": "Zootopia",
+    "summary": "conspiracy fox anthropomorphism discrimination stereotype rabbit prejudice rookie person urban missing cop animals protagonist 3d injustice female",
+    "tags": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 127585,
+    "name": "X-Men: Days of Future Past",
+    "summary": "based 1970s storm marvel time the or changing beast on aftercreditsstinger future past superhuman comic travel mutant",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 585,
+    "name": "Monsters, Inc.",
+    "summary": "rivalry hijinks best scream monster infant supply energy company friend belt conveyor",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Blade Runner",
+    "summary": "los noir futurista dystopia genetics bounty neo-noir fugitive lluvia artificial angeles intelligence hunter cyberpunk tech",
+    "tags": [
+      "Science Fiction",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 101299,
+    "name": "The Hunger Games: Catching Fire",
+    "summary": "rebellion future adult secret explosion competition female novel survival on mentor protagonist president games danger young uprising factory blood based television conspiracy dystopia sequel propaganda murder imax alliance winner tournament",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "A Clockwork Orange",
+    "summary": "living together sexuality relationship child street rape prison violence parent adolescence controversy futuristic worker social beethoven gang society controversial dystopia",
+    "tags": [
+      "Science Fiction",
+      "Drama"
+    ]
+  },
+  {
+    "id": 76203,
+    "name": "12 Years a Slave",
+    "summary": "shift violin owner century slavery physical slave player into abuse cotton whip 19th abolitionist kidnapping plantation sold night",
+    "tags": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "summary": "bittersweet vu nonlinear deja story heartbreak operation regret dream love jealousy memory problems brainwashing timeline relationship amnesia",
+    "tags": [
+      "Science Fiction",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 674,
+    "name": "Harry Potter and the Goblet of Fire",
+    "summary": "chosen teenage vision death hero black one adult magic novel and teenager dying on witchcraft young sorcerer's based boarding broom school of wizard tournament apprentice",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 752,
+    "name": "V for Vendetta",
+    "summary": "government fascism personification guilt fascist hatred irish catholicism detective satanism vengeful satan vatican priest spirit activist vigilante revenge chancellor masked torture jesuit occultism dystopia catholic of gnosticism",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 12444,
+    "name": "Harry Potter and the Deathly Hallows: Part 1",
+    "summary": "isolation tension werewolf corruption magic bravery attack radio teleportation",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 137113,
+    "name": "Edge of Tomorrow",
+    "summary": "deja dystopia war time officer warp restart alien invasion soldier vu exoskeleton military",
+    "tags": [
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Jurassic Park",
+    "summary": "tyrannosaurus theme dinosaur dna park paleontology island jurassic triceratops brontosaurus exotic electric rex amusement fence",
+    "tags": [
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 539,
+    "name": "Psycho",
+    "summary": "arizona hotel corpse shower money secretary murderer private theft motel rain detective proto-slasher clerk",
+    "tags": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 99861,
+    "name": "Avengers: Age of Ultron",
+    "summary": "based sequel duringcreditsstinger marvel universe team on vision 3d cinematic superhero comic",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 264660,
+    "name": "Ex Machina",
+    "summary": "robot cybernetics turing test intelligence laboratory relationship isolation dancing camera technology existentialism deception artificial distrust manipulation lockdown friendship outage power human consciousness philosophical surveillance",
+    "tags": [
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 283995,
+    "name": "Guardians of the Galaxy Vol. 2",
+    "summary": "based sequel duringcreditsstinger outer misfit on space aftercreditsstinger superhero comic",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 264644,
+    "name": "Room",
+    "summary": "isolation based novel grandparents son skylight shed dog imprisonment captive escape on kidnapping mother relationship carpet hospital",
+    "tags": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Terminator 2: Judgment Day",
+    "summary": "war savior weapons mental post-apocalyptic institution shotgun violence shape catch ambiguity dystopia shifter fictional cyborg moral phrase nuclear morphing",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 672,
+    "name": "Harry Potter and the Chamber of Secrets",
+    "summary": "flying giant hero cutting child black witch magic cord snake witchcraft car sorcerer's the broom school of aftercreditsstinger apprentice",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "American Beauty",
+    "summary": "dark maker relationship child loneliness adultery midlife first crisis agent bittersweet nudity affair film female virgin marijuana coming parent out satire comedy suburbia age male exercise time estate of camcorder",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 10193,
+    "name": "Toy Story 3",
+    "summary": "bear life personification toy barbie inanimate story teddy comes to care day coming duringcreditsstinger college hostage escape objects animation",
+    "tags": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Dead Poets Society",
+    "summary": "philosophy filmes um poetry shakespeare literature professor friendship em individual focados",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 281957,
+    "name": "The Revenant",
+    "summary": "bear trapper death grizzly relationship mountain events father rape native winter american violence novel frontier survival on revenge attack fur based son true snow animal murder of wilderness",
+    "tags": [
+      "Western",
+      "Drama",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 57158,
+    "name": "The Hobbit: The Desolation of Smaug",
+    "summary": "and dragon elves hobbit sword sorcery orcs dwarves wizard",
+    "tags": [
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Scarface",
+    "summary": "brother prohibition miami sister capitalism bitterness loss cocaine cuba corruption cult of relationship film",
+    "tags": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "Kill Bill: Vol. 2",
+    "summary": "brother daughter right duringcreditsstinger katana and role single justice aftercreditsstinger mother rage relationship swordplay hate",
+    "tags": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 675,
+    "name": "Harry Potter and the Order of the Phoenix",
+    "summary": "sorcery death hero cutting child black witch loss magic and cord dying witchcraft friend lover sorcerer's occultism the broom school of prophecy a apprentice",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Taxi Driver",
+    "summary": "dealer taxi shift death drug prostitution loner obsession shot illegal to vigilante vietnam misanthrope veteran alienation night",
+    "tags": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 273248,
+    "name": "The Hateful Eight",
+    "summary": "wyoming blizzard hangman war bounty stagecoach civil post narration hunter mountain",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Western"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Raiders of the Lost Ark",
+    "summary": "nepal treasure himalaya riddle world hunt whip commandments leather jacket swastika jones moses ten mediterranean indiana cairo nazis egypt ark saving covenant archaeologist the excavation hat of archeology\u00a0 medallion",
+    "tags": [
+      "Adventure",
+      "Action"
+    ]
+  },
+  {
+    "id": 146233,
+    "name": "Prisoners",
+    "summary": "setting candlelight pennsylvania vigil maze kidnapping vigilante rural",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 640,
+    "name": "Catch Me If You Can",
+    "summary": "party bank story camera inspired engagement agent mislaid fbi attempted biography overhead con by fraud trust true man shot a jailbreak",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 767,
+    "name": "Harry Potter and the Half-Blood Prince",
+    "summary": "wizardry witch crush broom school werewolf teenage apparition of witchcraft magic",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "2001: A Space Odyssey",
+    "summary": "astronaut vs intelligence mission travel base technology artificial computer being space machine station moon super man jupiter human monolith evolution",
+    "tags": [
+      "Science Fiction",
+      "Mystery",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 9806,
+    "name": "The Incredibles",
+    "summary": "island secret identity powers weapon lawsuit superhero wretch hero supernatural",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 266856,
+    "name": "The Theory of Everything",
+    "summary": "husband based als biography physicist autobiography on stephen fictionalized motor neuron hawking wife relationship memoir disease or",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Am\u00e9lie",
+    "summary": "daughter triangle paris shyness gnome sex-shop the photography world love round journey ghost garden train montmartre",
+    "tags": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 49047,
+    "name": "Gravity",
+    "summary": "astronaut loss space trapped in mission",
+    "tags": [
+      "Science Fiction",
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "id": 271110,
+    "name": "Captain America: Civil War",
+    "summary": "based war sequel marvel duringcreditsstinger universe civil on imax aftercreditsstinger cinematic 3d superhero comic",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 70160,
+    "name": "The Hunger Games",
+    "summary": "mine roasted fight throwing chariot tv adult explosion glamour female show novel sponsor and arrow pig on archery protagonist young based bow dystopia fictional hallucination blindness knife game",
+    "tags": [
+      "Science Fiction",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 49051,
+    "name": "The Hobbit: An Unexpected Journey",
+    "summary": "treasure hobbit riddle giant lake mountain elves climbing invisibility courage orcs journey tree ancient dwarves (tolkien) ring gnomes wizard goblin middle-earth tunnel underground a buried",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 330459,
+    "name": "Rogue One: A Star Wars Story",
+    "summary": "rebellion war robot language star alien death opera western jedi mission travel spin laser rebel against female spaceship off space odds protagonist suicide gun the man prequel battle gunfight blind",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 324786,
+    "name": "Hacksaw Ridge",
+    "summary": "ii japan war medic world religious story hero events father historical pacifism drama biography religion objector violent on alcoholic soldier based bible gore true 1940s conscientious u.s. military",
+    "tags": [
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 152532,
+    "name": "Dallas Buyers Club",
+    "summary": "based true drug story aids women on biography hiv 1980s",
+    "tags": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": 2062,
+    "name": "Ratatouille",
+    "summary": "brother cookbook paris mouse kitchen chef relationship cook one's confidence river court leaving rat work critic roof family window restaurant expensive spice",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 75656,
+    "name": "Now You See Me",
+    "summary": "heist vault conspiracy orleans paris money city las secret explosion escape york magic fbi bank vegas investigation new",
+    "tags": [
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 18785,
+    "name": "The Hangover",
+    "summary": "with elevator over memory las underwear loss bag tiger chapel head tire vegas hit stag duringcreditsstinger lost weekend hangover iron night",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Donnie Darko",
+    "summary": "presentation parent time school morality teenager vision airplane suburbia relationship travel child performance",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 429,
+    "name": "The Good, the Bad and the Ugly",
+    "summary": "hero army outlaw shootout gold bounty ambiguity anti moral spaghetti refugee gallows hitman western hunter",
+    "tags": [
+      "Western"
+    ]
+  },
+  {
+    "id": 489,
+    "name": "Good Will Hunting",
+    "summary": "genius friends boston harvard janitor university m.i.t. mathematics professor love ambition flashback baseball psychologist irish courtroom prodigy",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 13223,
+    "name": "Gran Torino",
+    "summary": "detroit war widower rape priest man hmong teenager gangster old immigration gang veteran car",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "12 Angry Men",
+    "summary": "father penalty rican innocence case class sultriness jurors murder heat anonymity group death puerto court judge courtroom",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 5915,
+    "name": "Into the Wild",
+    "summary": "self-discovery story relationship cutting child journey nudity biography parent cord pubic on male based true the camping hair wilderness alaska",
+    "tags": [
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": 109445,
+    "name": "Frozen",
+    "summary": "snowman musical betrayal director snow climber queen mountain aftercreditsstinger reindeer princess troll woman 3d curse animation",
+    "tags": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ]
+  },
+  {
+    "id": 10191,
+    "name": "How to Train Your Dragon",
+    "summary": "training flying arena flight village viking dragon well combat forest friendship ship island warrior blacksmith ignorance nest battle night",
+    "tags": [
+      "Fantasy",
+      "Adventure",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 222935,
+    "name": "The Fault in Our Stars",
+    "summary": "based novel lovers tank adult star teenager support on amsterdam group teen oxygen drama crossed young cancer",
+    "tags": [
+      "Romance",
+      "Drama"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Braveheart",
+    "summary": "with legend enemy tyranny scotland independence love idealism revolt in individual",
+    "tags": [
+      "Action",
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 87827,
+    "name": "Life of Pi",
+    "summary": "boy ship ocean faith shipwreck zookeeper teenage tiger cargo injured hindu animal lifeboat",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Action"
+    ]
+  },
+  {
+    "id": 4935,
+    "name": "Howl's Moving Castle",
+    "summary": "exchange body scarecrow anime witch flying demon hatter rain castle bakery",
+    "tags": [
+      "Fantasy",
+      "Animation",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 194662,
+    "name": "Birdman",
+    "summary": "long city times take play york new superhero actor square broadway",
+    "tags": [
+      "Drama",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Princess Mononoke",
+    "summary": "setting territory anime vs pan boar fight friendship evil princess rural iron wolf good wild",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Animation"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "The Big Lebowski",
+    "summary": "team heart vietnam russian bowling millionaire unemployed kidnapping weeds marijuana los lsd dude angeles impregnation cowboy attack carpet ball ashes white veteran nihilism",
+    "tags": [
+      "Comedy",
+      "Crime"
+    ]
+  },
+  {
+    "id": 20352,
+    "name": "Despicable Me",
+    "summary": "rivalry little girl evil 3d relationship minions kids father cattivissimo ballet tomboy duringcreditsstinger intelligent orphan adoptive life's doctor dream stealing orphanage daughter supervillain son despicable mother",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 190859,
+    "name": "American Sniper",
+    "summary": "sniper navy iraq seal soldier biography u.s.",
+    "tags": [
+      "War",
+      "Action"
+    ]
+  },
+  {
+    "id": 13475,
+    "name": "Star Trek",
+    "summary": "hole vulcan warp opera travel mission black outer alternate parachute engine romulans speed futuristic space reality teleportation reboot spacecraft time supernova prequel",
+    "tags": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 679,
+    "name": "Aliens",
+    "summary": "technology extraterrestrial vacuum xenomorph colony space android warrior woman cryogenics travel alien settler spaceman marine",
+    "tags": [
+      "Horror",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 329865,
+    "name": "Arrival",
+    "summary": "language romance linguistics heartbreak alien story short loss first scientist female on timeline protagonist family linguist based nonlinear spacecraft communication contact military",
+    "tags": [
+      "Thriller",
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 562,
+    "name": "Die Hard",
+    "summary": "elevator talkie journalist fistfight party hero heist one vault walkie explosion s.w.a.t. agent kidnapping fbi violence shootout los novel christmas eve angeles helicopter on skyscraper action shaft army based terrorist hostage man murder night",
+    "tags": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 54138,
+    "name": "Star Trek Into Darkness",
+    "summary": "terrorist sequel spacecraft futuristic alien space friendship imax opera 3d bombing",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 745,
+    "name": "The Sixth Sense",
+    "summary": "paranormal spiritism guilt sense death child loss confidence crisis and abuse dying marriage single psychology afterlife of phenomena cowardliness",
+    "tags": [
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "id": 259316,
+    "name": "Fantastic Beasts and Where to Find Them",
+    "summary": "magical central city robbery park goblin suitcase subway york magic station new wizard creature teleportation",
+    "tags": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 600,
+    "name": "Full Metal Jacket",
+    "summary": "war boot peace course party vietnam correspondent mass racism marine sniper platoon photographer fighting rescue violence sign novel combat camp prostitute obstacle blanket helicopter on sergeant journalism jungle based discipline suicide infantry propaganda recruit genocide grave u.s.",
+    "tags": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 11036,
+    "name": "The Notebook",
+    "summary": "one's sadness dementia candle life tears class mailbox secret fight love of river poem",
+    "tags": [
+      "Romance",
+      "Drama"
+    ]
+  },
+  {
+    "id": 242582,
+    "name": "Nightcrawler",
+    "summary": "chase stringer home relationship ethics car news underground station journalism employee employer sociopath invasion tv",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 641,
+    "name": "Requiem for a Dream",
+    "summary": "junkie speed diet drug heroin illegal unsociability prostitution addiction",
+    "tags": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 68721,
+    "name": "Iron Man 3",
+    "summary": "stark war marvel tennessee mandarin superhero 3d patriot cinematic extremis on machine comic terrorist based terror universe man tony aftercreditsstinger malibu iron",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 453,
+    "name": "A Beautiful Mind",
+    "summary": "massachusetts life nobel economy university mathematician mathematical theory intelligence economic individual one's market mathematics schizophrenia theorem m.i.t. princeton prize delusion of love",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 6977,
+    "name": "No Country for Old Men",
+    "summary": "drug united barrier states\u2013mexico hitman texas traffic suspense",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 84892,
+    "name": "The Perks of Being a Wallflower",
+    "summary": "student teenage freshman santa relationship lgbt adult secret character lead first high boy novel coming nephew shyness kiss on teen narration age young aunt incest based school of love hat gay",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 314365,
+    "name": "Spotlight",
+    "summary": "church 2001 boston cover-up investigative child catholicism florida court pedophilia priest christmas abuse journalism judge september 11 catholic cardinal lawyer",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "History"
+    ]
+  },
+  {
+    "id": 37724,
+    "name": "Skyfall",
+    "summary": "police british art secret booby agent turkey officer macao killer gallery spy istanbul uzi imax a service impersonating sociopath trap",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "The Terminator",
+    "summary": "robot war world future intelligence laser rebel artificial shotgun sun chase killer glasses urban car setting saving dystopia cyborg the gun",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 627,
+    "name": "Trainspotting",
+    "summary": "cold dark deal nightclub alcohol surrealism monologue recovering culture turkey addict film dealer novel drug england on friendship modern comedy stealing antihero addiction society based junkie rehabilitation sex heroin drugs hallucination illegal cult london",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 598,
+    "name": "City of God",
+    "summary": "male ghetto puberty coming 1970s war director photographer of woman nudity gang age 1980s brazilian street",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Edward Scissorhands",
+    "summary": "small sight underdog at inventor burglar love first hairdresser unsociability scissors town",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 284052,
+    "name": "Doctor Strange",
+    "summary": "neurosurgeon based wizard duringcreditsstinger marvel universe sorcerer on doctor aftercreditsstinger magic cinematic superhero comic",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Snatch",
+    "summary": "diamond accent sport trailer slang boxing park bare goods pikey pig of knuckle gypsy cockney receiving stolen",
+    "tags": [
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 44214,
+    "name": "Black Swan",
+    "summary": "illness heartbreak lake mental dancer dancing city ballet york suspense competition body madness paranoia swan horror ballerina sex obsession insanity new",
+    "tags": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 228150,
+    "name": "Fury",
+    "summary": "panzer ii war tank germany world nazi nazis",
+    "tags": [
+      "War",
+      "Drama",
+      "Action"
+    ]
+  },
+  {
+    "id": 119450,
+    "name": "Dawn of the Planet of the Apes",
+    "summary": "dystopia sequel medical research post-apocalyptic ape forest animal colony 3d attack scientist leader woods monkey plague",
+    "tags": [
+      "Science Fiction",
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Indiana Jones and the Last Crusade",
+    "summary": "treasure riddle world hunt whip relationship grail library father jones entrapment templars panzer indiana holy crusader nazis saving son archaeologist the order escape of venice archeology\u00a0",
+    "tags": [
+      "Adventure",
+      "Action"
+    ]
+  },
+  {
+    "id": 297762,
+    "name": "Wonder Woman",
+    "summary": "dc war director powers world superhero i hero extended greek drama comics on woman comic based super heroine universe period island 1910s superheroine mythology",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 423,
+    "name": "The Pianist",
+    "summary": "ii hunger place war deportation murderer world polish warsaw individual child homeland loss prisoners jew riot biography panzer liberation persecution station family hiding music crimes nazis ghetto classical pianist of radio resistance",
+    "tags": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 82702,
+    "name": "How to Train Your Dragon 2",
+    "summary": "husband sacrifice father death son sequel viking dragon mother warrior of rescue wife 3d relationship",
+    "tags": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Apocalypse Now",
+    "summary": "army beret death guerrilla green apocalypse vietcong tribe river napalm cambodia vietnam insanity jungle",
+    "tags": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Back to the Future Part II",
+    "summary": "flying electric almanac guitar travel dance lightning alternate skateboarding cane high walking phone inventor teenager car delorean sequel history time video school diner race hoverboard",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 1417,
+    "name": "Pan's Labyrinth",
+    "summary": "mythological regime army labyrinth spain fairy king anti love servant tale princess hiding franco hero woods resistance",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 64690,
+    "name": "Drive",
+    "summary": "police silent crime stomp bullet existentialism getaway independent head violence film chase soundtrack protagonist car blood stuntman splatter extreme lord great",
+    "tags": [
+      "Drama",
+      "Action",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 168259,
+    "name": "Furious 7",
+    "summary": "speed muscle revenge suspense race car",
+    "tags": [
+      "Action"
+    ]
+  },
+  {
+    "id": 102899,
+    "name": "Ant-Man",
+    "summary": "based duringcreditsstinger marvel universe on aftercreditsstinger 3d cinematic superhero comic",
+    "tags": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 808,
+    "name": "Shrek",
+    "summary": "fairy-tale figure parody liberation enchantment director ogre woman castle magic robin princess lordship hood",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 49538,
+    "name": "X-Men: First Class",
+    "summary": "war marvel mine world superhero mutant historical 1960s crisis on comic fiction cuban based cia iii missile superhuman nuclear",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 670,
+    "name": "Oldboy",
+    "summary": "anger daughter loneliness incest sin and south restaurant catholic notebook hostility revenge rage urination sushi hypnosis hate",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Mystery",
+      "Action"
+    ]
+  },
+  {
+    "id": 8358,
+    "name": "Cast Away",
+    "summary": "deserted loneliness crash survival volleyball suicide tropical island skills exotic airplane attempt",
+    "tags": [
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": 10528,
+    "name": "Sherlock Holmes",
+    "summary": "black arrest partner clue scotland sherlock steampunk coffin murder detective magic yard holmes pentagram",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Crime",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 12405,
+    "name": "Slumdog Millionaire",
+    "summary": "cheating duringcreditsstinger game suspicion orphan lead indian show slum",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 1402,
+    "name": "The Pursuit of Happyness",
+    "summary": "church san parent salesman bad work francisco single person worker homelessness luck stockbroker homeless service biography bus",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "The Fifth Element",
+    "summary": "police astronaut cruise vs world alien future evil clone opera singer travel good driver city resort york cab ancient against shootout dealer taxi chase end priest stowaway liner arms space archeologist egypt hotel cyborg time the love of new race military",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 8681,
+    "name": "Taken",
+    "summary": "daughter trafficking cia paris ex missing albanian human agent kidnapping rescue prostitution",
+    "tags": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 36557,
+    "name": "Casino Royale",
+    "summary": "casino terrorist money running montenegro british banker secret poker italy service free torture",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 863,
+    "name": "Toy Story 2",
+    "summary": "life personification toy identity team teamwork inanimate comes market collector to crisis rescue coming prosecution museum duringcreditsstinger sale friendship garage objects airplane flea",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 812,
+    "name": "Aladdin",
+    "summary": "sidekick arab musical genie cartoon animal love aftercreditsstinger princess magic comedy monkey animation",
+    "tags": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 45269,
+    "name": "The King's Speech",
+    "summary": "monarchy royal transmission speech father britain of royalty family death great radio marriage",
+    "tags": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": 137106,
+    "name": "The Lego Movie",
+    "summary": "toys toy different powers worlds relationship father batman live duringcreditsstinger on friendship lego falling in action based super creativity son part love",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 198663,
+    "name": "The Maze Runner",
+    "summary": "based novel dystopia adult loss post-apocalyptic runner erased escape on memory trapped maze dystopic future young",
+    "tags": [
+      "Action",
+      "Mystery",
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 64682,
+    "name": "The Great Gatsby",
+    "summary": "based novel hope obsession infidelity on 3d",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 122917,
+    "name": "The Hobbit: The Battle of the Five Armies",
+    "summary": "epic hobbit elves dragon sword battle middle-earth and corruption sorcery friendship orcs unlikely dwarves (tolkien)",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Million Dollar Baby",
+    "summary": "training death stroke boxing fate female determination and sport dying advancement woman protagonist attempt boxer suicide of strong trainer transporter",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 245891,
+    "name": "John Wick",
+    "summary": "retired mafia widower dog murder hitman gangster revenge russian",
+    "tags": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 38757,
+    "name": "Tangled",
+    "summary": "selfishness musical princess sidekick blonde gift horse magic fairy duringcreditsstinger on woman based power hostage tower animal tale animation healing",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 567,
+    "name": "Rear Window",
+    "summary": "apartment salesman convalescence suspicion photographer neighbor homebound of murder voyeurism nurse girlfriend",
+    "tags": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Pirates of the Caribbean: Dead Man's Chest",
+    "summary": "bondage captain east exotic witch compass company teller fortune monster trading pirate india daughter ship card swashbuckler island aftercreditsstinger game",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 10020,
+    "name": "Beauty and the Beast",
+    "summary": "based musical belle rose book beast on tv prince castle princess series animation",
+    "tags": [
+      "Romance",
+      "Family",
+      "Animation",
+      "Fantasy",
+      "Music"
+    ]
+  },
+  {
+    "id": 23483,
+    "name": "Kick-Ass",
+    "summary": "young realism mafia rookie adult secret identity book teenager crime murder adaptation superhero comedy kickass fighter comic violence",
+    "tags": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": 2108,
+    "name": "The Breakfast Club",
+    "summary": "detention school teenager hall high tardy",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 296096,
+    "name": "Me Before You",
+    "summary": "dead director accident caregiver town job wheelchair disabled something drama novel depression twenty small end england romantic on woman caretaker based",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 296096,
+    "name": "Me Before You",
+    "summary": "dead director accident caregiver town job wheelchair disabled something drama novel depression twenty small end england romantic on woman caretaker based",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 82690,
+    "name": "Wreck-It Ralph",
+    "summary": "product shooter wedding support group interrupted child racing precocious bullying first curiosity duringcreditsstinger arcade social placement gamer q*bert medal reject glitch video person aftercreditsstinger esteem self carefree",
+    "tags": [
+      "Family",
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 381284,
+    "name": "Hidden Figures",
+    "summary": "race black discrimination program racial mathematics 1960s nasa space woman sexism scientist segregation biography racism u.s.",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 50014,
+    "name": "The Help",
+    "summary": "racial belle racism newspaper 1960s courage novel writer ressentiment on columnist segregation southern maid based exploitation moral mississippi issues",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 2501,
+    "name": "The Bourne Identity",
+    "summary": "safe paris passport identity mission langley sniper camera lovers barcelona virginia multiple secret to foot hand shootout boat novel chase hamburg combat phone fishing on cell identities amnesia car box based spain germany escape of murder assassin deposit surveillance flashback",
+    "tags": [
+      "Action",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 122906,
+    "name": "About Time",
+    "summary": "father son time england relationship travel london",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 1271,
+    "name": "300",
+    "summary": "evisceration army fall from world shield ancient s.a.t. height javelin minions",
+    "tags": [
+      "Action",
+      "Adventure",
+      "War"
+    ]
+  },
+  {
+    "id": 138843,
+    "name": "The Conjuring",
+    "summary": "investigator based sister paranormal true power story annabelle farmhouse island exorcism ghost on rhode relationship investigation supernatural",
+    "tags": [
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 8392,
+    "name": "My Neighbor Totoro",
+    "summary": "leave sister japan magical home village cute anime neighbor powers mother moving relationship creature hospital supernatural new",
+    "tags": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 96721,
+    "name": "Rush",
+    "summary": "one based true automobile sport car world formula on champion events racing",
+    "tags": [
+      "Drama",
+      "Action"
+    ]
+  },
+  {
+    "id": 277834,
+    "name": "Moana",
+    "summary": " musical girl pacific sidekick sailboat quest voyage maui curse demigod young polynesia ocean sailor island animal aftercreditsstinger mythology animation",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 334543,
+    "name": "Lion",
+    "summary": "adoption story child street australia passenger lead indian novel long on lost tasmania train relative india based true missing",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 17654,
+    "name": "District 9",
+    "summary": "government prawn south mockumentary alien racism street technology genetics transformation alternate xenophobia slum mutation body johannesburg camp satire segregation gang africa internment dystopia history metamorphosis",
+    "tags": [
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Ocean's Eleven",
+    "summary": "scene lake atlantic expert las cockney salt black accent city club vegas prison dealer con and strip white artist male utah card pickpocket explosives",
+    "tags": [
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 109424,
+    "name": "Captain Phillips",
+    "summary": "hijack poverty ship captain fisherman terrorism commando pirate cargo somali hijacking somalia unit blood",
+    "tags": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 82693,
+    "name": "Silver Linings Playbook",
+    "summary": "mental dancing based novel depression institutionalization running illness neighbor eagles bipolar on friendship ex-wife philadelphia letter",
+    "tags": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 4922,
+    "name": "The Curious Case of Benjamin Button",
+    "summary": "navy tea funeral diary travel hospital",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "Thriller",
+      "Mystery",
+      "Romance"
+    ]
+  },
+  {
+    "id": 374720,
+    "name": "Dunkirk",
+    "summary": "pilot france ii army royal war navy forces british world beach german allied dunkirk evacuation air force private",
+    "tags": [
+      "Action",
+      "Drama",
+      "History",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": 601,
+    "name": "E.T. the Extra-Terrestrial",
+    "summary": "place flying marine technology father loss operation bicycle homesickness halloween extraterrestrial prosecution space saucer hiding flowerpot farewell single nasa of finger a riding",
+    "tags": [
+      "Science Fiction",
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 1895,
+    "name": "Star Wars: Episode III - Revenge of the Sith",
+    "summary": "showdown figure war opera childbirth galactic star sequence mother cult vision expectant dream space death hatred chancel",
+    "tags": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ]
+  },
+  {
+    "id": 93456,
+    "name": "Despicable Me 2",
+    "summary": "daughter father duringcreditsstinger secret love agent first 3d bakery falling in relationship minions date",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 19404,
+    "name": "Dilwale Dulhania Le Jayenge",
+    "summary": "musical",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 19908,
+    "name": "Zombieland",
+    "summary": "dead twinkie bitten relationship disposing post-apocalyptic fear violence body survival parody washington apocalypse on horror road amusement blood zombie sister count zombification loner splatter park trip the clowns of aftercreditsstinger a arm d.c.",
+    "tags": [
+      "Comedy",
+      "Horror"
+    ]
+  },
+  {
+    "id": 135397,
+    "name": "Jurassic World",
+    "summary": "3d theme dna suspense velociraptor dinosaur monster horror rex amusement attack tyrannosaurus sequel park island jurassic animal escape disaster",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 578,
+    "name": "Jaws",
+    "summary": "police atlantic dolly death ferry zoom shipwreck boat and fishing shark chief dying horror ocean animal bathing great white",
+    "tags": [
+      "Horror",
+      "Thriller",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 102651,
+    "name": "Maleficent",
+    "summary": "based dark adaptation literary on beauty tale villain fantasy retelling 3d sleeping fairy",
+    "tags": [
+      "Fantasy",
+      "Adventure",
+      "Action",
+      "Family",
+      "Romance"
+    ]
+  },
+  {
+    "id": 372058,
+    "name": "Your Name.",
+    "summary": "lovers body anime romance star school crossed switching supernatural",
+    "tags": [
+      "Romance",
+      "Animation",
+      "Drama"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Fargo",
+    "summary": "cheating police dealership salesclerk money ransom dakota auto murder winter kidnapping north woodchipper unsociability car",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 381288,
+    "name": "Split",
+    "summary": "illness girl powers identity teenage personality mental child multiple kidnapping violence stalking childhood abuse traumatic blood super gore disorder dissociative",
+    "tags": [
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 61791,
+    "name": "Rise of the Planet of the Apes",
+    "summary": "dystopia monkey golden zoo medical research ape bridge alzheimer's cage intelligence disease gate",
+    "tags": [
+      "Thriller",
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 425,
+    "name": "Ice Age",
+    "summary": "death squirrel relationship child loss times adventure tiger mammoth saber-toothed parent sloth and dying ice age creature stone man prehistoric human of evolution cavemen",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 6479,
+    "name": "I Am Legend",
+    "summary": "saving dystopia death matter life and the pandemic post-apocalyptic world of lost helplessness civilisation alone virus",
+    "tags": [
+      "Drama",
+      "Horror",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 51876,
+    "name": "Limitless",
+    "summary": "place apartment fictional writer stalking threat superhuman politician",
+    "tags": [
+      "Thriller",
+      "Mystery",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 747,
+    "name": "Shaun of the Dead",
+    "summary": "you pub british flower broken red got english bat film show collection cricket survival romantic on horror comedy you've in record zombie surrey cheese tv bottle",
+    "tags": [
+      "Horror",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 321612,
+    "name": "Beauty and the Beast",
+    "summary": "france 18th anthropomorphism century musical held captive beast tale castle magic gothic 3d creature curse fairy",
+    "tags": [
+      "Family",
+      "Fantasy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 1771,
+    "name": "Captain America: The First Avenger",
+    "summary": "ii war captain marvel world superhero 3d city brooklyn york cinematic drama on comic nazi nazis america based universe period germany aftercreditsstinger usa new",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 157350,
+    "name": "Divergent",
+    "summary": "young based novel dystopia caste adult on future dystopic divergent system youth",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 557,
+    "name": "Spider-Man",
+    "summary": "bad marvel reference loss goblin to of pokies evil hostility boss superhero superman comic spider lover thanksgiving",
+    "tags": [
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 10138,
+    "name": "Iron Man 2",
+    "summary": "based marvel universe on aftercreditsstinger malibu cinematic revenge superhero comic",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 31011,
+    "name": "Mr. Nobody",
+    "summary": "surrealism",
+    "tags": [
+      "Science Fiction",
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 935,
+    "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "summary": "strategic cold war device bomber weapons air room command general ex doomsday president nazi pilot usa missile nuclear absurdism",
+    "tags": [
+      "Drama",
+      "Comedy",
+      "War"
+    ]
+  },
+  {
+    "id": 2503,
+    "name": "The Bourne Ultimatum",
+    "summary": "europe government paris dark leak identity corruption dangerous moskow past langley false virginia madrid foot violence shootout novel chase espionage prosecution weapon on roof revelation based conspiracy sequel the assassin interpol security flashback motorcycle",
+    "tags": [
+      "Action",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 9479,
+    "name": "The Nightmare Before Christmas",
+    "summary": "musical skeleton santa fire o claus from holiday lantern magic tree pumpkin woods halloween christmas jack fall saving height animation",
+    "tags": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Pirates of the Caribbean: At World's End",
+    "summary": "life east exotic fighter calypso one's shipwreck company drug trading pirate abuse woman india ship ocean swashbuckler island afterlife love of aftercreditsstinger strong alliance traitor",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 762,
+    "name": "Monty Python and the Holy Grail",
+    "summary": "scotland wedding reception grail yard king table swordplay knights by holy monk anarchic comedy midnight aggression arthur the movie animal camelot of round chapter knight python monty",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 7345,
+    "name": "There Will Be Blood",
+    "summary": "brother petrol father killer money pipeline step oil dream alcoholic fanatic relationship american deaf-mute",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Once Upon a Time in America",
+    "summary": "opium money life and rape corruption lovesickness abuse sexual death gang sadistic laundering street",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 334533,
+    "name": "Captain Fantastic",
+    "summary": "home suicide the socialism off non-registered noam food schooled survivalist grid chomsky",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 10195,
+    "name": "Thor",
+    "summary": "heimdall marvel superhero 3d hammer norse cinematic banishment mexico odin on asgard comic redemption based universe shield aftercreditsstinger new mythology",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 10674,
+    "name": "Mulan",
+    "summary": "homeland daughter cricket training musical dragon luck princess",
+    "tags": [
+      "Animation",
+      "Family",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 949,
+    "name": "Heat",
+    "summary": "last money mouse betrayal epic robbery fight crime bank honor heist one job mastermind detective suspense film shooting chase and neo-noir criminal gang thief loner cat obsession gun movie cult murder ex-con",
+    "tags": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 607,
+    "name": "Men in Black",
+    "summary": "government deportation flying identity giant alien cockroach marine secret agency permit sun glasses space saucer fictional illegal undercover new immigration cannon stay",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 58574,
+    "name": "Sherlock Holmes: A Game of Shadows",
+    "summary": "mastermind steampunk criminal detective inspector",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Crime",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 587,
+    "name": "Big Fish",
+    "summary": "mermaid life giant story relationship stroke cancer father one's apoplectic witch circus teller gentle fishing leech fish fair son love of youth",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 37799,
+    "name": "The Social Network",
+    "summary": "network frat facebook hacker deposition arrogance social property party entrepreneur intellectual creator hacking young",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 72190,
+    "name": "World War Z",
+    "summary": "zombie dystopia multiple apocalypse perspectives weapons nuclear",
+    "tags": [
+      "Action",
+      "Drama",
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 68734,
+    "name": "Argo",
+    "summary": "husband place abroad extraction revolution intelligence relationship 1980s langley virginia agent crisis wife biography american hiding hanged cia man iran hostage conference press",
+    "tags": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Twelve Monkeys",
+    "summary": "syndrom syndrome dystopia monkey stockholm time post-apocalyptic subterranean cassandra lethal philadelphia schizophrenia travel virus",
+    "tags": [
+      "Science Fiction",
+      "Thriller",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 76338,
+    "name": "Thor: The Dark World",
+    "summary": "based takeover duringcreditsstinger marvel universe norse on aftercreditsstinger 3d hostile cinematic asgard superhero comic mythology",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 1091,
+    "name": "The Thing",
+    "summary": "remake shifting storm paranoia life-form research snow sled shape norwegian space alien dogs station ice antarctica marine",
+    "tags": [
+      "Horror",
+      "Mystery",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 19913,
+    "name": "(500) Days of Summer",
+    "summary": "los year sister friends sex interview architect gallery ikea summer angeles fight love party jealousy fate heartache date",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 318846,
+    "name": "The Big Short",
+    "summary": "real bank story wall street mortgage crisis biography finances animated financial fraud loan on based true the sequence breaking estate fourth",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 419430,
+    "name": "Get Out",
+    "summary": "police controlled stereotype dark parents-in-law missing race-conscious disappearance externally satire american comedy interracial action relationship racism african harassment",
+    "tags": [
+      "Mystery",
+      "Thriller",
+      "Horror"
+    ]
+  },
+  {
+    "id": 28178,
+    "name": "Hachi: A Dog's Tale",
+    "summary": "newspaper friends reporter waiting japanese loyalty dog animal relationships human friendship family relationship",
+    "tags": [
+      "Drama",
+      "Family"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "Casablanca",
+    "summary": "noir triangle war nationalism camp concentration spy corruption melodrama love casablanca patriotism nazis emigration film resistance visa",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 177677,
+    "name": "Mission: Impossible - Rogue Nation",
+    "summary": "conspiracy sequel austria england spy villain opera mission london vienna",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Groundhog Day",
+    "summary": "day loop deja existentialism time pennsylvania film forecast groundhog cult clock warp winter weather alarm telecaster vu",
+    "tags": [
+      "Romance",
+      "Fantasy",
+      "Drama",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 82992,
+    "name": "Fast & Furious 6",
+    "summary": "sequel automobile theft crime racing race car",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 1372,
+    "name": "Blood Diamond",
+    "summary": "diamond leone fisherman mine sierra mercenary journalist bootlegger oppression rebel loss rwanda unit special smuggling family journalism in slavery of genocide",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Action"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Stand by Me",
+    "summary": "boys \u00a0flipping story child normandy to superman novel coin coming 1950s on friendship beach within age based reference the railroad of campfire track",
+    "tags": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 62211,
+    "name": "Monsters University",
+    "summary": "dormitory best monster university aftercreditsstinger games friend scary animation",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 11321,
+    "name": "Seven Pounds",
+    "summary": "type vegetarian collector pianist transplant organ tax blind blood",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 2502,
+    "name": "The Bourne Supremacy",
+    "summary": "lie though many dark rail past one sniper to suspense moscow foot against violence shootout novel chase espionage guy run combat on house exploding amnesia car based sequel the assassin hand berlin",
+    "tags": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 1930,
+    "name": "The Amazing Spider-Man",
+    "summary": "serum marvel powers spider father loss outcast duringcreditsstinger social vigilante masked comic bite super reboot engineering of experiment genetic scientific",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 9552,
+    "name": "The Exorcist",
+    "summary": "paranormal vomit language faith ouija girl possession supernatural child water exorcism crisis board religion satan and christian priest holy profanity disturbed demon of strong phenomena sfx",
+    "tags": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 131631,
+    "name": "The Hunger Games: Mockingjay - Part 1",
+    "summary": "subjugation war prejudice future revolt class adult post-apocalyptic female novel and arrow on protagonist young based bow dystopia sequel resistance human game",
+    "tags": [
+      "Science Fiction",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Once Upon a Time in the West",
+    "summary": "brother bounty anti death western hero auction loss peasant harmonica sadness and spaghetti dying blackmail hunter showdown of insanity",
+    "tags": [
+      "Western"
+    ]
+  },
+  {
+    "id": 4638,
+    "name": "Hot Fuzz",
+    "summary": "arrest police conspiracy costume partner village cowboy murder accident force gunfight",
+    "tags": [
+      "Crime",
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 17431,
+    "name": "Moon",
+    "summary": "isolation moon dystopia cloning artificial space future clone intelligence base",
+    "tags": [
+      "Science Fiction",
+      "Drama"
+    ]
+  },
+  {
+    "id": 200727,
+    "name": "Love, Rosie",
+    "summary": "male based novel opportunity best friends pregnancy teenage missed on love in relationship female",
+    "tags": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 85350,
+    "name": "Boyhood",
+    "summary": "husband coming family's life up daily urban parenting abuse divorced of parents domestic family growing age abusive divorce",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Sin City",
+    "summary": "scene mercedes graphic black mysterious right captive to silhouette novel killer and color neo-noir on thing comic based dystopia the held doing white",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 49521,
+    "name": "Man of Steel",
+    "summary": "based super saving extended dc reboot superhuman universe the powers world alien on superhero comic invasion comics",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Citizen Kane",
+    "summary": "newspaper collector media money banker florida journalist sleigh art capitalist child tycoon",
+    "tags": [
+      "Mystery",
+      "Drama"
+    ]
+  },
+  {
+    "id": 127380,
+    "name": "Finding Dory",
+    "summary": "underwater anthropomorphism sequel animal fish talking amnesia animation",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 68726,
+    "name": "Pacific Rim",
+    "summary": "dystopia robot duringcreditsstinger monster apocalypse giant imax 3d",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 620,
+    "name": "Ghostbusters",
+    "summary": "paranormal keeper twin marshmallow powers giant ghost possession supernatural city agency hybrid york duringcreditsstinger monster nerd receptionist loser towers protection environmental haunting new phenomena gate mythology slime",
+    "tags": [
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 187017,
+    "name": "22 Jump Street",
+    "summary": "duringcreditsstinger buddy school cop aftercreditsstinger undercover comedy high",
+    "tags": [
+      "Crime",
+      "Comedy",
+      "Action"
+    ]
+  },
+  {
+    "id": 156022,
+    "name": "The Equalizer",
+    "summary": "organized ops call girl corruption teenage crime gangster death russian interrogation past black camera mysterious to suspense fbi sadism violence combat ex prostitute commando faked vigilante revenge soldier gore loner hostage hitman assassin security surveillance hand sociopath",
+    "tags": [
+      "Thriller",
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "Rain Man",
+    "summary": "dealer father convertible duringcreditsstinger psychiatrist loss savant mentally of disabled autism yuppie egocentrism individual travel car",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Back to the Future Part III",
+    "summary": "western travel native horseback california scientist cavalry indian american wild shootout outlaw territory mad robber inventor saloon train car locomotive delorean sports sequel time railroad west riding gunfight",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 62177,
+    "name": "Brave",
+    "summary": "bear kingdom scotland director peace into 3d rebel wish ruins courage woman scot archery turns archer daughter rebellious animal aftercreditsstinger bravery offering",
+    "tags": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Action",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 296098,
+    "name": "Bridge of Spies",
+    "summary": "pilot cia cold war soviet spy lawyer union american",
+    "tags": [
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "id": 36657,
+    "name": "X-Men",
+    "summary": "based marvel superhuman on superhero comic mutant",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 9693,
+    "name": "Children of Men",
+    "summary": "police dystopia survival childlessness birth rebel faith state aging chaos future miracle dying hippie",
+    "tags": [
+      "Drama",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 114150,
+    "name": "Pitch Perfect",
+    "summary": "bickering friends roommate group relationship hazing room contest adult audition acapella competition film female dj college friendship music young male dorm musician of score singing",
+    "tags": [
+      "Comedy",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": 4348,
+    "name": "Pride & Prejudice",
+    "summary": "18th century suitor period prejudice attract bachelor pride georgian opposites drama beautiful",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 83666,
+    "name": "Moonrise Kingdom",
+    "summary": "patch party pen blue scouts child town dancing red cute first meet pipe smoking sand boy eye small duringcreditsstinger color england sheriff handkerchief search the love new leader pal devastation",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 116745,
+    "name": "The Secret Life of Walter Mitty",
+    "summary": "daydream magazine job photograph skateboard daydreaming the from himalaya photographer fired shark online dreamer dating iceland",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "The Devil Wears Prada",
+    "summary": "fashion job assistant paris interview world journalist of editor-in-chief fasion journalism journal entrant",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 426,
+    "name": "Vertigo",
+    "summary": "noir one's vertigo san museum life guilt obsession francisco bachelor necklace of love sense film plan grave painting",
+    "tags": [
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Indiana Jones and the Temple of Doom",
+    "summary": "treasure mine riddle skeleton hunt heart driving belching child eating bridge jones brains monkey belt conveyor film violence indiana rope thuggee car torture splits archaeologist cult a archeology\u00a0",
+    "tags": [
+      "Adventure",
+      "Action"
+    ]
+  },
+  {
+    "id": 56292,
+    "name": "Mission: Impossible - Ghost Protocol",
+    "summary": "sequel broken explosion fight imax threat arm nuclear mission",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 293863,
+    "name": "The Age of Adaline",
+    "summary": "san francisco forever love immortality",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 12477,
+    "name": "Grave of the Fireflies",
+    "summary": "brother shelter ii hunger sister japan war boy little starving girl orphan world food death wartime tokyo relationship",
+    "tags": [
+      "Animation",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 59436,
+    "name": "Midnight in Paris",
+    "summary": "based novel forbidden nostalgia sculpture paris time hemingway travel on love detective painter midnight screenwriter past",
+    "tags": [
+      "Fantasy",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 782,
+    "name": "Gattaca",
+    "summary": "cheating paraplegic identity biotechnology heart future hostility mission eugenics false genetics dna disease investigation new space dystopic attempt blood dystopia exercise suicide sample spaceman",
+    "tags": [
+      "Thriller",
+      "Science Fiction",
+      "Mystery",
+      "Romance"
+    ]
+  },
+  {
+    "id": 1018,
+    "name": "Mulholland Drive",
+    "summary": "interview identity sense casting past job loss independent trauma suppressed surreal suspense schizophrenia film los angeles reality amnesia lesbian bisexuality key hallucination of",
+    "tags": [
+      "Thriller",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 1366,
+    "name": "Rocky",
+    "summary": "amateur training life underdog world fight match one's lovers boxing victory philadelphia independence champion publicity italo-american surprise boxer love of transporter",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 65754,
+    "name": "The Girl with the Dragon Tattoo",
+    "summary": "hacker personality journalist antisocial scandinavian rape investigation remake computer novel killer quote abuse on journalism nazis based bible punk disappearance disorder serial hacking",
+    "tags": [
+      "Thriller",
+      "Crime",
+      "Mystery",
+      "Drama"
+    ]
+  },
+  {
+    "id": 14574,
+    "name": "The Boy in the Striped Pyjamas",
+    "summary": "ii war nationalism camp concentration world gas prisoner chamber nazis",
+    "tags": [
+      "War",
+      "Drama"
+    ]
+  },
+  {
+    "id": 558,
+    "name": "Spider-Man 2",
+    "summary": "boy one's super sequel life marvel dual pizza tentacle identity love of doctor villain scientist death superhero comic",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 45612,
+    "name": "Source Code",
+    "summary": "surrealism pilot time suspicion identity helicopter fantasy bomb bomber soldier travel investigation",
+    "tags": [
+      "Thriller",
+      "Science Fiction",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 273481,
+    "name": "Sicario",
+    "summary": "soccer dilemma vision texas death paso cartel mexican agent fbi wife smoking dirty mexico drug cop daughter cia tunnel moral murder of el night",
+    "tags": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 524,
+    "name": "Casino",
+    "summary": "1970s drug illegal abuse overdose poker prostitution",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 337339,
+    "name": "The Fate of the Furious",
+    "summary": "mysterious sequel betrayal city mastermind criminal york mission woman rescue 3d new fast cars submarine",
+    "tags": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 1585,
+    "name": "It's a Wonderful Life",
+    "summary": "based novel depression small guardian christmas suicide ending eve holiday great on tree bank attempt feel-good angel town",
+    "tags": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Minority Report",
+    "summary": "hologram noir dystopia neo-noir washington evidence murder future prophecy self-fulfilling d.c.",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Predator",
+    "summary": "predator invisible central and south stalking commando alien 3d america",
+    "tags": [
+      "Science Fiction",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 1359,
+    "name": "American Psycho",
+    "summary": "imitation director wall child street harvard voice divorce novel on woman collar based business school psychopath unreliable of white narrator",
+    "tags": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 59967,
+    "name": "Looper",
+    "summary": "organized contract crime future travel execution addict retirement violence tragedy boy killer drug neo-noir criminal addiction dystopia time suicide murder assassin",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 773,
+    "name": "Little Miss Sunshine",
+    "summary": "brother husband life for daily director queen literature professor pageant relationship family's contest holiday california highway beauty wife relationships woman road family sister trip movie oscar award",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 1954,
+    "name": "The Butterfly Effect",
+    "summary": "blackout time chaos theory flashback travel amnesia",
+    "tags": [
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 307081,
+    "name": "Southpaw",
+    "summary": "sport",
+    "tags": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": 64688,
+    "name": "21 Jump Street",
+    "summary": "male based humor parody buddy duringcreditsstinger crude school cop on friendship undercover series comedy high tv",
+    "tags": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ]
+  },
+  {
+    "id": 274870,
+    "name": "Passengers",
+    "summary": "robot swimming automation android malfunction pool 3d isolation outer hibernation nudity gravity spaceship space asteroid station in male shower lying trapped",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Romance",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 13183,
+    "name": "Watchmen",
+    "summary": "dc war identity square death superhero mass 1980s red secret retirement american comics clock on doomsday vigilante president masked comic based conspiracy soviet murder of nuclear",
+    "tags": [
+      "Action",
+      "Mystery",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 1949,
+    "name": "Zodiac",
+    "summary": "police planned reporter journalist threat death mass newspaper california code to killing san killer francisco victim murder of serial embassy",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 9502,
+    "name": "Kung Fu Panda",
+    "summary": "shop anthropomorphism china evil kung tiger fighting sensei ancient martial monkey snake master destiny mentor woman noodle arts restaurant panda warrior aftercreditsstinger strong bravery turtle fu",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "Seven Samurai",
+    "summary": "japan practice century village ambiguity looting rice fencing moral samurai peasant battle 16th",
+    "tags": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": 277216,
+    "name": "Straight Outta Compton",
+    "summary": "brother police husband speech racial contract vandalism illness riches assault gangster slur nightclub relationship story hospital racism hip-hop from mother to wife freedom feud rap marijuana brutality dealer los chase drug aids angeles on road rapper gang music based recording true son terminal trip protest of rags",
+    "tags": [
+      "Drama",
+      "Music"
+    ]
+  },
+  {
+    "id": 2493,
+    "name": "The Princess Bride",
+    "summary": "screwball reference swashbuckler to evil prince plato socrates impersonation",
+    "tags": [
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Lock, Stock and Two Smoking Barrels",
+    "summary": "cocktail hatchet carjacking cardsharp cockney alcohol anger accent shotgun piano smoking show high marijuana joint tea stakes antique strip ambush pot rifle machismo",
+    "tags": [
+      "Comedy",
+      "Crime"
+    ]
+  },
+  {
+    "id": 36658,
+    "name": "X2",
+    "summary": "based marvel superhuman on superhero comic mutant",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Saw",
+    "summary": "sadist based chained bludgeoning short pistol on of shotgun death film game",
+    "tags": [
+      "Horror",
+      "Mystery",
+      "Crime"
+    ]
+  },
+  {
+    "id": 51497,
+    "name": "Fast Five",
+    "summary": "escaped police organized automobile money brazil convict crime racing heist from fbi prison freedom chase run duringcreditsstinger on car the fugitive escape imax crash",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 771,
+    "name": "Home Alone",
+    "summary": "chicago mischief home christmas suburban holiday burglar mischievous booby alone invasion child trap",
+    "tags": [
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 2118,
+    "name": "L.A. Confidential",
+    "summary": "with switchblade falsifying star call girl corruption crime domestic good district detective shotgun violence bandage glasses cop 1950s word in corpse attorney morgue f bad man movie thigh knife",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Mystic River",
+    "summary": "law workers' boston reference sprite loss arbitrary abuse repayment of to sexual suppressed quarter child past",
+    "tags": [
+      "Thriller",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 10386,
+    "name": "The Iron Giant",
+    "summary": "toilet cold war robot giant 1950s on friendship of laxative a unknown fear sitting",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 2048,
+    "name": "I, Robot",
+    "summary": "police robot vs future intelligence 3d hero artificial chicago novel humanoid on machine based law dystopia suicide man murder",
+    "tags": [
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 206487,
+    "name": "Predestination",
+    "summary": "time travel",
+    "tags": [
+      "Science Fiction",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 22538,
+    "name": "Scott Pilgrim vs. the World",
+    "summary": "camera point animated shot character's girl underage hipster unconsciousness of fight aftercreditsstinger view vegan flashback girlfriend whipping",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 312221,
+    "name": "Creed",
+    "summary": "motivational sport underdog off speaker boxing underground fighting spin",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 616,
+    "name": "The Last Samurai",
+    "summary": "husband japan war language guilt sword barrier commercial mercenary strategy self-discovery 19th sense deal mountain homeland foreign village slaughter agreement insurgence gettysburg loss trauma legion emperor swordplay general japanese arms alcoholic soldier crimes army century katana samurai of leader campaign veteran u.s.",
+    "tags": [
+      "Drama",
+      "Action",
+      "War",
+      "History"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Lost in Translation",
+    "summary": "difference star commercial director unsociability clash lag room pop class culture karaoke homesickness upper woman jet age hotel aftercreditsstinger",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 44115,
+    "name": "127 Hours",
+    "summary": "very little canyon climber adventurer alone story mountain hikers adventure climbing rescue survival on isolated flashback despair based utah true escape dialogue trapped boulder",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 59440,
+    "name": "Warrior",
+    "summary": "combat training exercise muscleman gym arts teacher beating alcoholic bank martial mixed",
+    "tags": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "The Untouchables",
+    "summary": "treasury evasion capone suit rule al cutting 1930s while tough agent tampering face shaving rooftop chase cop untouchable law jury of white tax",
+    "tags": [
+      "Crime",
+      "Drama",
+      "History",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 11216,
+    "name": "Cinema Paradiso",
+    "summary": "cinema director theatre relationship past censorship sicily film coming kiss by age son the movie of mother flashback haunted",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Charlie and the Chocolate Factory",
+    "summary": "factory candy based father novel son parent england chocolate grandson worker overweight on grandfather relationship teacher london child",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 2649,
+    "name": "The Game",
+    "summary": "brother birthday life surprising of party danger relationship",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 334541,
+    "name": "Manchester by the Sea",
+    "summary": "mental dysfunctional massachusetts sadness grief nephew boston guardian life loss legal health family death funeral hospital tragedy",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 1933,
+    "name": "The Others",
+    "summary": "photosensitivity islands spiritism world house channel nanny parallel haunted",
+    "tags": [
+      "Horror",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 339403,
+    "name": "Baby Driver",
+    "summary": "chase driver atlanta romance robbery getaway crime boss music car tinnitus",
+    "tags": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Brokeback Mountain",
+    "summary": "rodeo star countryside father lovers loss horseback secret intolerance crisis homophobia cowboy crossed lover marriage wyoming daughter of murder love riding gay",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 306819,
+    "name": "The Danish Girl",
+    "summary": "denmark paris copenhagen surgery art artist transsexual lgbt",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 630,
+    "name": "The Wizard of Oz",
+    "summary": "crow musical identity sepia land witch secret imaginary novel kansas color adolescence clock on dream music based scarecrow tornado classic lion cowardliness",
+    "tags": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 203801,
+    "name": "The Man from U.N.C.L.E.",
+    "summary": "remake based cold war buddy spy cop on series russian american tv",
+    "tags": [
+      "Comedy",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 131634,
+    "name": "The Hunger Games: Mockingjay - Part 2",
+    "summary": "based novel dystopia adult of on woman strong revolution death 3d young game",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 3082,
+    "name": "Modern Times",
+    "summary": "factory ambulance tramp depression industrial slapstick pardon machine revolution invention great guilty",
+    "tags": [
+      "Drama",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 1858,
+    "name": "Transformers",
+    "summary": "based robot duringcreditsstinger transformation toy teenage alien destroy on transformers hero",
+    "tags": [
+      "Adventure",
+      "Science Fiction",
+      "Action"
+    ]
+  },
+  {
+    "id": 652,
+    "name": "Troy",
+    "summary": "brother battlefield war helen epic sword world fight hostility pyre relationship wall homer's adultery beauty horse ancient greece fraud age bronze troy iliad sparta trojan of bravery mythology",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 240832,
+    "name": "Lucy",
+    "summary": "telekinesis brain synthetic drug superpower girl artificial futuristic tough imax capacity surgery telepathy human intelligence mule",
+    "tags": [
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 376867,
+    "name": "Moonlight",
+    "summary": "fight relationship african lgbt black florida addict american high dealer coming drug abuse age homosexuality addiction son restaurant school of mother gay",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 328387,
+    "name": "Nerve",
+    "summary": "risk cellphone technology city adult taking york internet novel smartphone teenager on young based video adaptation dare a new hacking game",
+    "tags": [
+      "Mystery",
+      "Adventure",
+      "Crime"
+    ]
+  },
+  {
+    "id": 50646,
+    "name": "Crazy, Stupid, Love.",
+    "summary": "law crazy school midlife soulmates crisis relationship womanizer marriage",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 583,
+    "name": "Life of Brian",
+    "summary": "kings empire latin jesus three death jewry christianity miracle crucifixion gladiator nudity doomed christ and bethlehem monty homily dying on mount anarchic comedy male sermon roman the balcony man python stoning graffiti resistance",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 920,
+    "name": "Cars",
+    "summary": "anthropomorphism auto route wrecker media journey retirement los duringcreditsstinger sport angeles friendship road porsche car 66 setting movie aftercreditsstinger rural race",
+    "tags": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 49530,
+    "name": "In Time",
+    "summary": "dystopia run differences and time the class rich vs on future robbers\u00a0 bank cops against race poor immortality",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 340666,
+    "name": "Nocturnal Animals",
+    "summary": "based novel daughter novelist story writer the hostage carjacking flashback on overbearing art mother within relationship lung cancer",
+    "tags": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 604,
+    "name": "The Matrix Reloaded",
+    "summary": "precognition virtual faith director vs world fight future death intelligence hero mission virus rave kung truth artificial martial religion computer and dying machine dream woman reality cyberpunk saving dystopia key the man arts underground plato gnosticism fu",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "Amadeus",
+    "summary": "god talent 18th century musician austria murder crisis italy opera envy composer vienna marriage",
+    "tags": [
+      "Drama",
+      "History",
+      "Music"
+    ]
+  },
+  {
+    "id": 1865,
+    "name": "Pirates of the Caribbean: On Stranger Tides",
+    "summary": "sea ship prime captain minister mermaid sword pirate battle swashbuckler sailing duke aftercreditsstinger silver soldier 3d mutiny",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 4951,
+    "name": "10 Things I Hate About You",
+    "summary": "romance shakespeare teenage play father shrew deception feel-good high duringcreditsstinger attract ending cannabis archery teen opposites sister overprotective school movie adaptation",
+    "tags": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ]
+  },
+  {
+    "id": 3933,
+    "name": "Corpse Bride",
+    "summary": "cheating motion stop musical money dark wedding skeleton town parents piano old european ring shyness england fantasy corpse ceremony marriage grave animation",
+    "tags": [
+      "Romance",
+      "Fantasy",
+      "Animation",
+      "Music"
+    ]
+  },
+  {
+    "id": 138832,
+    "name": "We're the Millers",
+    "summary": "police mexico drug smuggling family gang",
+    "tags": [
+      "Comedy",
+      "Crime"
+    ]
+  },
+  {
+    "id": 11970,
+    "name": "Hercules",
+    "summary": "hades olympus musical peasant aftercreditsstinger hercules animation",
+    "tags": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Adventure",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 82695,
+    "name": "Les Mis\u00e9rables",
+    "summary": "arrest rebellion musical convict robbery star wedding girl as france parole boy disguised mayor falling brothel in corpse army love",
+    "tags": [
+      "Drama",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": 10144,
+    "name": "The Little Mermaid",
+    "summary": "sea fireworks daughter true mermaid spell kingdom bargain love prince princess animation",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 290250,
+    "name": "The Nice Guys",
+    "summary": "investigator daughter conspiracy alcoholism father 1970s eye relationship pornography party detective alcoholic private investigation",
+    "tags": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 9340,
+    "name": "The Goonies",
+    "summary": "vomit treasure plank lifting group foreclosure air hidden water to walking lost machine in housing male slide exercise reference the liberace urination gunfight",
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 291805,
+    "name": "Now You See Me 2",
+    "summary": "heist society magician sequel run england china the secret on magic vigilante revenge london macau",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 582,
+    "name": "The Lives of Others",
+    "summary": "republic speech government cold war life for east corruption heartbreak democratic wall interrogation german artists' nudity freedom minister house spying mfs blackmail search suicide soviet stasi germany propaganda arts communism of surveillance union berlin education",
+    "tags": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 193756,
+    "name": "Lone Survivor",
+    "summary": "navy survival war dangerous seal mission military",
+    "tags": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": 602,
+    "name": "Independence Day",
+    "summary": "ufo extraterrestrial war spacecraft spaceship independence alien patriotism battle invasion countdown",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "North by Northwest",
+    "summary": "assassination framed memorial espionage run government the fugitive spy national identity rushmore mount mistaken on agent advertising",
+    "tags": [
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 102382,
+    "name": "The Amazing Spider-Man 2",
+    "summary": "based super sequel marvel electrocution obsession medical powers on electricity experiment comic",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 75612,
+    "name": "Oblivion",
+    "summary": "dystopia drone spacecraft vs alien space imax human",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Adventure",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 246655,
+    "name": "X-Men: Apocalypse",
+    "summary": "based domination marvel superhuman apocalypse powers world supernatural team on aftercreditsstinger superhero comic 1980s mutant",
+    "tags": [
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 12162,
+    "name": "The Hurt Locker",
+    "summary": "army sniper desert body war iraq loyalty tension director car explosive sergeant woman bomb suspense squad armor u.s.",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": 203833,
+    "name": "The Book Thief",
+    "summary": "ii war germany book world jewish nazi",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 4982,
+    "name": "American Gangster",
+    "summary": "police people dealing underdog corruption crime gangster ambition black smuggle detective heroes drug and cop criminal family dishonesty society fall law rise traffic aftercreditsstinger enforcement",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 238713,
+    "name": "Spy",
+    "summary": "dealer cia duringcreditsstinger spy arms aftercreditsstinger undercover disaster female",
+    "tags": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ]
+  },
+  {
+    "id": 7326,
+    "name": "Juno",
+    "summary": "an puberty birth and time adult pregnancy becoming partnership teenager teenage sexuality precocity first oscar pregnant award minor",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 703,
+    "name": "Annie Hall",
+    "summary": "audience job beetle volkswagen interview the breaking jewish to love neurosis singer narration fourth comedian wall talking",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 12155,
+    "name": "Alice in Wonderland",
+    "summary": "based novel place fictional alice world queen on fantasy 3d in wonderland",
+    "tags": [
+      "Family",
+      "Fantasy",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "Inside Man",
+    "summary": "heist document court manager case financial transactions background kidnapping ultimatum bank nazi",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 211672,
+    "name": "Minions",
+    "summary": "duringcreditsstinger assistant mastermind evil aftercreditsstinger 3d minions",
+    "tags": [
+      "Family",
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Unforgiven",
+    "summary": "last one job right mutilation bounty and prostitute sheriff englishman regret justice reputation revenge",
+    "tags": [
+      "Western"
+    ]
+  },
+  {
+    "id": 2034,
+    "name": "Training Day",
+    "summary": "brutality police dealer los member mexican war drug barrio drugs angeles cholo on traffic gang american",
+    "tags": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 168672,
+    "name": "American Hustle",
+    "summary": "con mobster agent fbi scam artist",
+    "tags": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 103663,
+    "name": "The Hunt",
+    "summary": "father pedophilia denmark son lie children hunting school deer kindergarten pedophile relationship teacher divorce",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 265177,
+    "name": "Mommy",
+    "summary": "dysfunctional disorders son single quebec behavioral family mother relationship",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 855,
+    "name": "Black Hawk Down",
+    "summary": "warlord war prisoners of operation somalia rescue famine delta force wound",
+    "tags": [
+      "Action",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 829,
+    "name": "Chinatown",
+    "summary": "los sea mistake pedophilia rape and barrage neo-noir person angeles chinatown dying river detective death in private",
+    "tags": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 568,
+    "name": "Apollo 13",
+    "summary": "lunar astronaut accident spaceman story mission houston rocket explosion florida cape courage rescue against program apollo survival saturn on space hypothermia v kennedy based moon true time spacecraft nasa imax disaster race",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 9444,
+    "name": "Anastasia",
+    "summary": "foreign musical language adaptation explosion tzar revolution exploding russian train",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 331214,
+    "name": "Band of Brothers",
+    "summary": "army ii paratroops europe combat war world paratrooper in miniseries u.s.",
+    "tags": [
+      "Action",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 9377,
+    "name": "Ferris Bueller's Day Off",
+    "summary": "chicago duringcreditsstinger school aftercreditsstinger high",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 81188,
+    "name": "Rise of the Guardians",
+    "summary": "claus jack duringcreditsstinger bunny nightmare easter tooth sandman santa dream frost fairy",
+    "tags": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 594,
+    "name": "The Terminal",
+    "summary": "europe language barrier passport jfk fast craftsman jazz camera proposal airport york translation stewardess food friendship autograph international saxophonist marriage law musician eastern illegal restaurant security new immigration",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 1893,
+    "name": "Star Wars: Episode I - The Phantom Menace",
+    "summary": "taskmaster senate queen taxes space prophecy galaxy opera apprentice",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 44826,
+    "name": "Hugo",
+    "summary": "boy brace library filmmaking robot key director toy orphan doberman clock love leg hiding 3d film automaton",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ]
+  },
+  {
+    "id": 70981,
+    "name": "Prometheus",
+    "summary": "life creation alien android stasis spin drawing mutation off surgery archeological dig dystopia cave origins of aftercreditsstinger complex emergency genetic god",
+    "tags": [
+      "Science Fiction",
+      "Adventure",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 3131,
+    "name": "Gangs of New York",
+    "summary": "army ship war thieves butcher pickpocket irish-american of pig immigrant rescue fire gang",
+    "tags": [
+      "Drama",
+      "History",
+      "Crime"
+    ]
+  },
+  {
+    "id": 9799,
+    "name": "The Fast and the Furious",
+    "summary": "los automobile duringcreditsstinger angeles aftercreditsstinger undercover racing auto-tuning gang race car street",
+    "tags": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 14756,
+    "name": "Ip Man",
+    "summary": "sadist chun wing market bayonet katana sport master arts rice racism tragic foreigner bravery hero martial",
+    "tags": [
+      "Drama",
+      "Action",
+      "History"
+    ]
+  },
+  {
+    "id": 809,
+    "name": "Shrek 2",
+    "summary": "dancing fairy-tale figure kingdom liberation enchantment scene parents-in-law transformation magic honeymoon prison",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Some Like It Hot",
+    "summary": "chicago day cross mafia musician all spats dressing girl st. witness valentine's sugar massacre band",
+    "tags": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": 938,
+    "name": "For a Few Dollars More",
+    "summary": "setting sidekick sombrero right bounty mustache man spaghetti rural piano death beard western hunter smoking pot hand",
+    "tags": [
+      "Western"
+    ]
+  },
+  {
+    "id": 9509,
+    "name": "Man on Fire",
+    "summary": "bible cia mexico bodyguard phone launcher animal bloodshed swim kidnapping alcoholic diary meet cell stuffed grenade",
+    "tags": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Crime"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Jackie Brown",
+    "summary": "underworld police drug airport weapon arms deal",
+    "tags": [
+      "Comedy",
+      "Crime",
+      "Romance"
+    ]
+  },
+  {
+    "id": 8844,
+    "name": "Jumanji",
+    "summary": "based insect home book giant on disappearance new recluse board children's game",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ]
+  },
+  {
+    "id": 8363,
+    "name": "Superbad",
+    "summary": "an young one people adult school becoming high night",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 10625,
+    "name": "Mean Girls",
+    "summary": "rivalry gossip girl water best at female high out teenager friendship fish teen comedy popularity friend school of new",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 257211,
+    "name": "The Intern",
+    "summary": "intern director woman",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "Batman",
+    "summary": "super double place dc fictional life city dual powers identity gotham crime chemical superhero fighter comics",
+    "tags": [
+      "Fantasy",
+      "Action"
+    ]
+  },
+  {
+    "id": 914,
+    "name": "The Great Dictator",
+    "summary": "vs party evil good funny jew socialism jewish satire hairdresser nazi amnesia ghetto adolf germany propaganda national socialist hitler dictator",
+    "tags": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": 8321,
+    "name": "In Bruges",
+    "summary": "skinned vietnamese museum alive belgium gruuthuse canadian bruges square stereotype town",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "id": 613,
+    "name": "Downfall",
+    "summary": "ii ideology war shepherd ultimate world party death figure historical poison victory destroy german and minister socialism capitulation politics dying clerk despair troops dictator adolf soviet national socialist hitler traitor race berlin testament",
+    "tags": [
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 278927,
+    "name": "The Jungle Book",
+    "summary": "remake bear based novel jungle snake orphan animal feral tiger on panther to animals wolf talking child elephant",
+    "tags": [
+      "Family",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 363676,
+    "name": "Sully",
+    "summary": "aviation autobiography accident story memoir hero travel york river rescue biography investigation hudson on pilot based true imax airplane new bird or",
+    "tags": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": 44264,
+    "name": "True Grit",
+    "summary": "father alcoholism betrayal loss of texas murder ranger",
+    "tags": [
+      "Drama",
+      "Adventure",
+      "Western"
+    ]
+  },
+  {
+    "id": 76492,
+    "name": "Hotel Transylvania",
+    "summary": "wolfman zombie invisible father fang duringcreditsstinger protective witch backpacker man frankenstein skeleton dracula \u00a0nosferatu mummy magic vamp vampire",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 953,
+    "name": "Madagascar",
+    "summary": "penguin giraffe hippopotamus lion zebra",
+    "tags": [
+      "Family",
+      "Animation"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "The Simpsons Movie",
+    "summary": "lives lake relationship pollution father agency first donuts duringcreditsstinger quarantine ecology pig family marriage dysfunctional duff alcoholism son beer saving the garbage springfield protection love environmental simpsons alaska",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 324552,
+    "name": "John Wick: Chapter 2",
+    "summary": "sequel gun handshake party roof italy",
+    "tags": [
+      "Thriller",
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": 80278,
+    "name": "The Impossible",
+    "summary": "day thailand century from boxing wave 21st tsunami vacation swept family catastrophe away separation tidal",
+    "tags": [
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "id": 110415,
+    "name": "Snowpiercer",
+    "summary": "ruin allegory guilt pregnant revolt relationship graphic child father city class post-apocalyptic bridge population winter violence novel social on hijacking brothel comic train duplicity based control son dystopia rifle perpetual tunnel dam of labour",
+    "tags": [
+      "Action",
+      "Science Fiction",
+      "Drama"
+    ]
+  },
+  {
+    "id": 11778,
+    "name": "The Deer Hunter",
+    "summary": "viet pennsylvania pittsburgh escape party steelers cong friend vietnam veteran",
+    "tags": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 72105,
+    "name": "Ted",
+    "summary": "bear teddy comes true life toy come to love friendship wishes",
+    "tags": [
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 792,
+    "name": "Platoon",
+    "summary": "jungle gore combat war village mine f battle 1960s score word vietnam soldier famous hero",
+    "tags": [
+      "Drama",
+      "War",
+      "Action"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Lucky Number Slevin",
+    "summary": "mistake identity gangster men racing black sniper debts caso hoodlum jew agent horse fbi gambler boss in assassination rifle person murder assassin gambling slevin",
+    "tags": [
+      "Drama",
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 4133,
+    "name": "Blow",
+    "summary": "smuggle fall 1970s drug war drugs and rise on traffic addiction",
+    "tags": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 824,
+    "name": "Moulin Rouge!",
+    "summary": "writer's musical moulin illness opening duke bohemian eurydice hall rouge toulouse red dance lautrec and block writer no traviata curtain music orpheus terminal credits la cancan",
+    "tags": [
+      "Drama",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": 333371,
+    "name": "10 Cloverfield Lane",
+    "summary": "basement paranoia apocalypse car captive accident kidnapping survivalist bunker",
+    "tags": [
+      "Thriller",
+      "Science Fiction",
+      "Drama"
+    ]
+  },
+  {
+    "id": 333371,
+    "name": "10 Cloverfield Lane",
+    "summary": "basement paranoia apocalypse car captive accident kidnapping survivalist bunker",
+    "tags": [
+      "Thriller",
+      "Science Fiction",
+      "Drama"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "28 Days Later",
+    "summary": "church waking manchester epidemic submachine laboratory hospital virus city from survivor violence brutality taxi england gas station rage daughter zombie coma research gun animal london military",
+    "tags": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 259693,
+    "name": "The Conjuring 2",
+    "summary": "paranormal 1970s annabelle england demon demonic spirit single valak mother possession investigation london",
+    "tags": [
+      "Horror"
+    ]
+  },
+  {
+    "id": 621,
+    "name": "Grease",
+    "summary": "rivalry tracks gossip automobile musical flying whistle graduation play wolf racing street dance greaser nostalgic running rally side mooning animated on gang principal car makeover based the credits school wrong of pep or",
+    "tags": [
+      "Romance"
+    ]
+  },
+  {
+    "id": 22881,
+    "name": "The Blind Side",
+    "summary": "duringcreditsstinger sport school player football adoption private american education",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 10315,
+    "name": "Fantastic Mr. Fox",
+    "summary": "farm fox life cider peasant tale tree revenge",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 1894,
+    "name": "Star Wars: Episode II - Attack of the Clones",
+    "summary": "rebellion kendo senate star wedding teenage alien evil opera death jedi laser yoda good figure mechanical spaceport investigation violence space army gun becoming cult hand race",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 9325,
+    "name": "The Jungle Book",
+    "summary": "jungle anthropomorphism walt musical orphan animal feral human lead disney narration talking relationship indian child",
+    "tags": [
+      "Family",
+      "Animation",
+      "Adventure"
+    ]
+  },
+  {
+    "id": 9428,
+    "name": "The Royal Tenenbaums",
+    "summary": "forgiveness dysfunctional conflict terminal illness cigarette family smoking child prodigy",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 770,
+    "name": "Gone with the Wind",
+    "summary": "war life civil death child typhus proposal loss crisis atlanta and woman plantation marriage luxury southern business of usa",
+    "tags": [
+      "Drama",
+      "Romance",
+      "War"
+    ]
+  },
+  {
+    "id": 1700,
+    "name": "Misery",
+    "summary": "blizzard fan author psychopath broken leg obsessed nurse crash car",
+    "tags": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 581,
+    "name": "Dances with Wolves",
+    "summary": "skab under foran hylde \u00d8verste tv",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ]
+  },
+  {
+    "id": 198184,
+    "name": "Chappie",
+    "summary": "robot artificial cop android future near intelligence",
+    "tags": [
+      "Crime",
+      "Action",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Breakfast at Tiffany's",
+    "summary": "brother difference life broken fire one's loss neighbor millionaire engagement jewelry age window cat escape of love celebration store",
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 227306,
+    "name": "Unbroken",
+    "summary": "ii war olympic sport director prisoners world of woman athlete biography",
+    "tags": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": 206647,
+    "name": "Spectre",
+    "summary": "based novel sequel united kingdom british spy secret on agent service mi6",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ]
+  },
+  {
+    "id": 396535,
+    "name": "Train to Busan",
+    "summary": "zombie korea survival busan south train",
+    "tags": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Before Sunrise",
+    "summary": "traveller bittersweet austria romantic dialogue soulmates danube sunrise talking vienna walking",
+    "tags": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 49519,
+    "name": "The Croods",
+    "summary": "daughter father stone duringcreditsstinger relationship world prehistoric aftercreditsstinger family ancient age cavemen",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 313297,
+    "name": "Kubo and the Two Strings",
+    "summary": "motion stop samurai magic storytelling",
+    "tags": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ]
+  },
+  {
+    "id": 14836,
+    "name": "Coraline",
+    "summary": "eye door duringcreditsstinger home world animal secret aftercreditsstinger dream button new parallel stuffed",
+    "tags": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": 861,
+    "name": "Total Recall",
+    "summary": "life identity memory falsely mutant false secret mars agent implanted double accused oxygen space telepathy cyberpunk dystopia colony hologram resistance",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 16320,
+    "name": "Serenity",
+    "summary": "slitting reavers firefly series planet martial operative ex spaceship throat on telepathy soldier based dystopia arts fugitive cannibal tv",
+    "tags": [
+      "Science Fiction",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 249164,
+    "name": "If I Stay",
+    "summary": "based novel body musician coma experience girl adult out teenager teenage of accident on teen drama young car",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "summary": "brother narnia sacrifice fairy-tale world relationship figure witch winter novel duringcreditsstinger on beaver fantasy based sister saving cupboard the self lion battle",
+    "tags": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 1578,
+    "name": "Raging Bull",
+    "summary": "nose husband boxer over-the-hill violent paranoia sport extreme broken fistfight domestic jealousy fighter biography violence transporter",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 628,
+    "name": "Interview with the Vampire",
+    "summary": "fang san paris francisco plantation bite vamp vampire pity",
+    "tags": [
+      "Horror",
+      "Romance"
+    ]
+  },
+  {
+    "id": 83542,
+    "name": "Cloud Atlas",
+    "summary": "1930s cast dystopia duringcreditsstinger century director future woman clone ensemble",
+    "tags": [
+      "Drama",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "Love Actually",
+    "summary": "detector war language barrier star storylines party restaurants proposal multiple office at first nudity female show christmas and england sight minister metal on marseille president marriage male rock prime terror school conference love usa bars press london tv performance",
+    "tags": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ]
+  },
+  {
+    "id": 308369,
+    "name": "Me and Earl and the Dying Girl",
+    "summary": "student friends tattoo leukemia teenage cancer adult high boy novel coming parody teenager on age young based school of",
+    "tags": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": 954,
+    "name": "Mission: Impossible",
+    "summary": "paris identity deal prague mission base secret agent series computer espionage england spy arms on headquarter tgv terrorist based cia undercover embassy london tv",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 37135,
+    "name": "Tarzan",
+    "summary": "gorilla camp orphan feral baby adoption nest jungle child animation",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Drama",
+      "Family"
+    ]
+  },
+  {
+    "id": 9487,
+    "name": "A Bug's Life",
+    "summary": "ant collector duringcreditsstinger and grass fight winter family invention kids ant-hill",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": 11688,
+    "name": "The Emperor's New Groove",
+    "summary": "central birthday and kingdom south llama palace emperor america berater",
+    "tags": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 10515,
+    "name": "Castle in the Sky",
+    "summary": "army government pendant anime mine flying girl pirate floating sky lost agent castle magic civilisation blue air crystal",
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Animation",
+      "Action",
+      "Family",
+      "Romance"
+    ]
+  },
+  {
+    "id": 302946,
+    "name": "The Accountant",
+    "summary": "criminal autism accountant",
+    "tags": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "id": 335797,
+    "name": "Sing",
+    "summary": "furry anthropomorphism theater competition animal singing cgi talking",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Family",
+      "Music"
+    ]
+  },
+  {
+    "id": 297761,
+    "name": "Suicide Squad",
+    "summary": "shared supervillain dc extended universe anti secret villain superhero hero mission comics",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Crime",
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 947,
+    "name": "Lawrence of Arabia",
+    "summary": "damascus army arabian jerusalem desert war arab empire british world ottoman horse camel cairo i",
+    "tags": [
+      "Adventure",
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": 140420,
+    "name": "Paperman",
+    "summary": "black very and romance animated short little office dialogue airplane skyscraper station paper white train",
+    "tags": [
+      "Animation",
+      "Family",
+      "Romance"
+    ]
+  },
+  {
+    "id": 1368,
+    "name": "First Blood",
+    "summary": "police tramp war matter life submachine falsely death vietnam self-defense to destroy operation survivor firearm prison brutality accused prosecution guerrilla and sheriff weapon dying attempt setting gun national guard escape of rural veteran",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": 1572,
+    "name": "Die Hard: With a Vengeance",
+    "summary": "police robbery simon riddle fistfight bank says hero dump deception city explosion agent york bomb detective fbi violence shootout taxi chase helicopter flashback action subway car federal truck reserve ship sequel aqueduct new gold",
+    "tags": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 22803,
+    "name": "Law Abiding Citizen",
+    "summary": "attorney tattoo district vigilantism secret explosion passage justice deal baseball bat courtroom",
+    "tags": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": 45317,
+    "name": "The Fighter",
+    "summary": "church filmmaking massachusetts shadow blue irish boxing shorts american duringcreditsstinger sport jumping worker rope collar lowell documentary boxer crew bells",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 284293,
+    "name": "Still Alice",
+    "summary": "professor illness mother",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 256591,
+    "name": "Focus",
+    "summary": "rivalry femme con deception man fatale seduction artist",
+    "tags": [
+      "Romance",
+      "Comedy",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": 9323,
+    "name": "Ghost in the Shell",
+    "summary": "computer based dystopia cyborg manga man vs artificial fugitive implantat android on machine protagonist intelligence female cyberpunk virus",
+    "tags": [
+      "Action",
+      "Animation",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": 225574,
+    "name": "Non-Stop",
+    "summary": "hijack one conspiracy killer mystery phone airplane crash cell night",
+    "tags": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ]
+  },
+  {
+    "id": 9800,
+    "name": "Philadelphia",
+    "summary": "homophobia hiv discrimination partner aids jurors dying judiciary lawyer court gay",
+    "tags": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 1491,
+    "name": "The Illusionist",
+    "summary": "rivalry crown power austria sweetheart childhood duchess supernatural love prince princess magic vienna",
+    "tags": [
+      "Fantasy",
+      "Drama",
+      "Thriller",
+      "Romance"
+    ]
+  },
+  {
+    "id": 20453,
+    "name": "3 Idiots",
+    "summary": "bollywood student camera friends suicide engineering college subjective attempt",
+    "tags": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ]
+  }
+]

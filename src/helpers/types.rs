@@ -1,9 +1,17 @@
-
-use candle::Tensor;
+use anyhow::{Error as E, Result as OtherResult};
+use candle::{Result, Tensor};
+use candle_nn::VarBuilder;
+use candle_transformers::models::{
+    bert::{BertModel, Config, HiddenAct, DTYPE},
+    distilbert::DistilBertModel,
+};
+use clap::Parser;
+use hf_hub::{api::sync::Api, Repo, RepoType};
 use serde::Deserialize;
 use std::fmt;
+use tokenizers::Tokenizer;
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, Eq, PartialEq, Hash)]
 pub struct Data {
     pub id: i32,
     pub name: String,
@@ -46,23 +54,16 @@ impl fmt::Display for Data {
     }
 }
 
-use anyhow::{Error as E, Result};
-use candle_nn::VarBuilder;
-use candle_transformers::models::bert::{BertModel, Config, HiddenAct, DTYPE};
-use clap::Parser;
-use hf_hub::{api::sync::Api, Repo, RepoType};
-use tokenizers::Tokenizer;
-
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
-pub(crate) struct Args {
+pub struct Args {
     /// Run on CPU rather than on GPU.
     #[arg(long)]
     cpu: bool,
 
     /// Enable tracing (generates a trace-timestamp.json file).
     #[arg(long)]
-    tracing: bool,
+    pub tracing: bool,
 
     /// The model to use, check out available models: https://huggingface.co/models?library=sentence-transformers&sort=trending
     #[arg(long)]
@@ -73,7 +74,7 @@ pub(crate) struct Args {
 
     /// When set, compute embeddings for this prompt.
     #[arg(long)]
-    prompt: Option<String>,
+    pub prompt: Option<String>,
 
     /// Use the pytorch weights rather than the safetensors ones
     #[arg(long)]
@@ -93,7 +94,7 @@ pub(crate) struct Args {
 }
 
 impl Args {
-    pub(crate) fn build_model_and_tokenizer(&self) -> Result<(BertModel, Tokenizer)> {
+    pub(crate) fn build_model_and_tokenizer(&self) -> OtherResult<(BertModel, Tokenizer)> {
         let device = candle_examples::device(self.cpu)?;
         let default_model = "sentence-transformers/all-MiniLM-L6-v2".to_string();
         let default_revision = "refs/pr/21".to_string();
@@ -131,5 +132,40 @@ impl Args {
         }
         let model = BertModel::load(vb, &config)?;
         Ok((model, tokenizer))
+    }
+}
+
+pub struct Recommendations {
+    size: usize,
+    items: Vec<(String, f32)>,
+}
+
+impl Recommendations {
+    pub fn new(size: usize) -> Recommendations {
+        if size <= 0 {
+            panic!("Size must be greater than 0");
+        }
+        let mut temp = Vec::new();
+        for _ in 0..size {
+            temp.push((String::from(""), -1.1));
+        }
+        Recommendations { size: size,  items: temp }
+    }
+
+    pub fn insert_or_skip(&mut self, item: String, score: f32) {
+        if score < self.items[self.size - 1].1 {
+            return;
+        }
+        self.items.remove(self.size - 1);
+        self.items.push((item, score));
+        self.items.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap());
+    }
+
+    pub fn get_recommendations(&self) -> Vec<String> {
+        let mut temp = Vec::new();
+        for (item, _) in &self.items {
+            temp.push(item.clone());
+        }
+        temp
     }
 }
