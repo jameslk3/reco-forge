@@ -61,10 +61,6 @@ pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMa
         .encode_batch(summaries.to_vec(), true)
         .map_err(E::msg)?;
 
-    for x in 0..tokens.len() {
-        println!("{:?}", tokens[x].get_tokens().join(" "));
-    }
-
     // Convert the tokens to tensors
     let token_ids = tokens
         .iter()

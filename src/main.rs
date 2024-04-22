@@ -26,7 +26,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     for (_key, value) in node_embeddings.iter() {
 	    if value.is_some() {
 		    println!("THERE IS SOMETHING IN THE EMBEDDING {}", counter);
-			println!("{}", value.clone().unwrap());
 	    } else {
 		    println!("NOPE {}", counter);
 	    }
