@@ -1,10 +1,7 @@
 use anyhow::{Error as E, Result as OtherResult};
-use candle::{Result, Tensor};
+use candle::{Device, Tensor};
 use candle_nn::VarBuilder;
-use candle_transformers::models::{
-    bert::{BertModel, Config, HiddenAct, DTYPE},
-    distilbert::DistilBertModel,
-};
+use candle_transformers::models::bert::{BertModel, Config, HiddenAct, DTYPE};
 use clap::Parser;
 use hf_hub::{api::sync::Api, Repo, RepoType};
 use serde::Deserialize;
@@ -95,7 +92,7 @@ pub struct Args {
 
 impl Args {
     pub(crate) fn build_model_and_tokenizer(&self) -> OtherResult<(BertModel, Tokenizer)> {
-        let device = candle_examples::device(self.cpu)?;
+        let device = Device::Cpu;
         let default_model = "sentence-transformers/all-MiniLM-L6-v2".to_string();
         let default_revision = "refs/pr/21".to_string();
         let (model_id, revision) = match (self.model_id.to_owned(), self.revision.to_owned()) {
@@ -147,7 +144,7 @@ impl Recommendations {
         }
         let mut temp = Vec::new();
         for _ in 0..size {
-            temp.push((String::from(""), -1.1));
+            temp.push((String::from("Couldn't find any more recommendations"), -1.1));
         }
         Recommendations { size: size,  items: temp }
     }
