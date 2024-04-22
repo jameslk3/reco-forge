@@ -1,4 +1,8 @@
 /target
+/src/sample-json/worker.ipynb
+/src/sample-json/movies/clean_json.py
+/src/sample-json/videogames/load_json.py
+/src/sample-json/worker.ipynb
 
 client id: op1z4ho7doyt2morgsh11wezj9yjc4
 client secret: rstf0id2yat17nqir9xa9gz3hzbvf1
