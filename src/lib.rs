@@ -76,7 +76,7 @@ pub use candle::Tensor;
 pub use helpers::types::Data;
 pub use std::collections::HashMap;
 
-use helpers::pre_recommendation::{extract_data, get_embeddings, find_embedding};
+use helpers::pre_recommendation::{extract_data, insert_embeddings, find_embedding};
 use helpers::recommendation::{get_recommendations, create_input_embedding};
 
 /// # create_model
@@ -96,13 +96,20 @@ use helpers::recommendation::{get_recommendations, create_input_embedding};
 /// 		Err(e) => println!("Error: {}", e),
 /// 	}
 pub fn create_model(file_path: &String) -> Result<HashMap<Data, Option<Tensor>>, String> {
+    let start = std::time::Instant::now();
+
     let nodes_wrapped: Result<HashMap<Data, Option<Tensor>>, ()> = extract_data(&file_path);
     if nodes_wrapped.is_err() {
         return Err(("File path is not valid or file cannot be deserialized, please input the correct file path and try again:").to_string());
     }
     let mut nodes: HashMap<Data, Option<Tensor>> = nodes_wrapped.unwrap();
-    let node_embeddings = get_embeddings(&mut nodes).unwrap();
-    Ok(node_embeddings)
+    if let Ok(_) = insert_embeddings(&mut nodes) {
+        let duration = start.elapsed();
+        println!("Code execution took {:.3} milliseconds",
+        duration.as_secs_f64() * 1000.0 + duration.subsec_nanos() as f64 / 1_000_000.0);
+        return Ok(nodes);
+    }
+    return Err("Error inserting embeddings".to_string());
 }
 
 /// # pass_description
