@@ -3,7 +3,6 @@
     "image": "rusty-image",
     "extensions": [
         "rust-lang.rust-analyzer",
-        "GitHub.copilot"
     ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",

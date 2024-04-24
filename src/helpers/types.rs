@@ -4,11 +4,11 @@ use candle_nn::VarBuilder;
 use candle_transformers::models::bert::{BertModel, Config, HiddenAct, DTYPE};
 use clap::Parser;
 use hf_hub::{api::sync::Api, Repo, RepoType};
-use serde::Deserialize;
+use serde::{Serialize, Deserialize};
 use std::fmt;
 use tokenizers::Tokenizer;
 
-#[derive(Debug, Deserialize, Clone, Eq, PartialEq, Hash)]
+#[derive(Debug, Serialize, Deserialize, Clone, Eq, PartialEq, Hash)]
 pub struct Data {
     pub id: i32,
     pub name: String,
