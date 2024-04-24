@@ -94,3 +94,12 @@ pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMa
 
     Ok(new_map)
 }
+
+pub fn find_embedding(data: &HashMap<Data, Option<Tensor>>, item_name: &String) -> Option<Tensor> {
+    for (key, value) in data.iter() {
+        if key.name == *item_name {
+            return Some(value.clone().unwrap());
+        }
+    }
+    None
+}
