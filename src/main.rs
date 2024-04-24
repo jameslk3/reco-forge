@@ -1,9 +1,4 @@
-use std::collections::HashMap;
-
-use reco_forge::*;
-use reco_forge::helpers::types::*;
-
-use candle::Tensor;
+use reco_forge::{create_model, pass_item, Data, Tensor, HashMap};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut path = String::new();
@@ -32,15 +27,20 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     tags_input = tags_input.trim().to_string();
 
     println!("Input what you want.");
-    let mut description_input: String = String::new();
-    std::io::stdin().read_line(&mut description_input).expect("Failed to read line");
-    description_input = description_input.trim().to_string();
+    let mut query: String = String::new();
+    std::io::stdin().read_line(&mut query).expect("Failed to read line");
+    query = query.trim().to_string();
+    println!();
 
-    let recommendations = pass_item(&model, description_input, tags_input, 10).unwrap();
-    println!("Recommendations:");
-    for recommendation in recommendations {
-        println!("{}", recommendation);
+    let recommendations = pass_item(&model, query, tags_input, 10);
+    match recommendations {
+        Ok(recommendations) => {
+            println!("Recommendations:");
+            for recommendation in recommendations {
+                println!("{}", recommendation);
+            }
+        },
+        Err(_) => println!("No recommendations found"),
     }
     Ok(())
 }
-

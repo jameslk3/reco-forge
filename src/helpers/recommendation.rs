@@ -12,7 +12,7 @@ use super::types::Recommendations;
 /// @param `description_input` - a String containing what the user wants suggested
 ///
 /// @return `Ok()` with a Tensor (embedding) generated from the string [OR] `Err()`
-pub fn create_input_embedding(description_input: &String) -> Result<Option<Tensor>> {
+pub(crate) fn create_input_embedding(description_input: &String) -> Result<Option<Tensor>> {
     let args = Args::parse();
 
     let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
@@ -59,17 +59,17 @@ pub fn create_input_embedding(description_input: &String) -> Result<Option<Tenso
     Ok(Some(embeddings.get(0).unwrap()))
 }
 
-pub fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, input_embedding: &Tensor, tags_input: &String, num_recommendations: usize) -> Result<Vec<String>, ()> {
+pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, input_embedding: &Tensor, tags_input: &String, num_recommendations: usize) -> Result<Vec<String>, ()> {
     
     // Closure to filter out recommendations based on tags
-    let tags_to_match = tags_input.split(',').collect::<Vec<&str>>().iter().map(|x| x.trim()).collect::<Vec<&str>>();
+    let tags_to_match = tags_input.split(',').collect::<Vec<&str>>().iter().map(|x| x.trim().to_lowercase()).collect::<Vec<String>>();
     let through_filter = |tags: &Vec<String>| -> bool {
         if tags_input == &String::from("NONE") {
             true
         } else {
             let mut through_filter = true;
             for tag_to_match in tags_to_match.iter() {
-                if !tags.contains(&String::from(*tag_to_match)) {
+                if !tags.iter().map(|x| x.to_lowercase()).collect::<Vec<String>>().contains(&String::from(tag_to_match)) {
                     through_filter = false;
                     break;
                 }

@@ -1,4 +1,4 @@
-pub mod types;
-pub mod pre_recommendation;
-pub mod recommendation;
-pub mod utils;
+pub(crate) mod types;
+pub(crate) mod pre_recommendation;
+pub(crate) mod recommendation;
+pub(crate) mod utils;
