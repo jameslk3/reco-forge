@@ -1,46 +1,26 @@
 use anyhow::{Error as E, Result as OtherResult};
-use candle::{Device, Tensor};
+use candle::Device;
 use candle_nn::VarBuilder;
 use candle_transformers::models::bert::{BertModel, Config, HiddenAct, DTYPE};
 use clap::Parser;
 use hf_hub::{api::sync::Api, Repo, RepoType};
-use serde::Deserialize;
+use serde::{Serialize, Deserialize};
 use std::fmt;
 use tokenizers::Tokenizer;
 
-#[derive(Debug, Deserialize, Clone, Eq, PartialEq, Hash)]
+/// The struct that holds the data for one item in the model
+/// 
+/// # Fields
+///     * `id` - The id of the item
+///     * `name` - The name of the item
+///     * `summary` - The summary/description of the item
+///     * `tags` - The tags of the item that are used to filter the recommendations
+#[derive(Debug, Serialize, Deserialize, Clone, Eq, PartialEq, Hash)]
 pub struct Data {
     pub id: i32,
     pub name: String,
     pub summary: String,
     pub tags: Vec<String>,
-}
-
-#[derive(Debug, Clone)]
-pub struct DataWithEmbeddings {
-    pub id: i32,
-    pub name: String,
-    pub summary: String,
-    pub tags: Vec<String>,
-    pub embedding: Option<Tensor>,
-}
-
-impl DataWithEmbeddings {
-    pub fn new(
-        id: i32,
-        name: String,
-        summary: String,
-        tags: Vec<String>,
-        embedding: Option<Tensor>,
-    ) -> DataWithEmbeddings {
-        DataWithEmbeddings {
-            id: id,
-            name: name,
-            summary: summary,
-            tags: tags,
-            embedding: embedding,
-        }
-    }
 }
 
 impl fmt::Display for Data {
@@ -53,7 +33,7 @@ impl fmt::Display for Data {
 
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
-pub struct Args {
+pub(crate) struct Args {
     /// Run on CPU rather than on GPU.
     #[arg(long)]
     cpu: bool,
@@ -62,7 +42,7 @@ pub struct Args {
     #[arg(long)]
     pub tracing: bool,
 
-    /// The model to use, check out available models: https://huggingface.co/models?library=sentence-transformers&sort=trending
+    /// The model to use
     #[arg(long)]
     model_id: Option<String>,
 
@@ -132,13 +112,13 @@ impl Args {
     }
 }
 
-pub struct Recommendations {
+pub(crate) struct Recommendations {
     size: usize,
     items: Vec<(String, f32)>,
 }
 
 impl Recommendations {
-    pub fn new(size: usize) -> Recommendations {
+    pub(crate) fn new(size: usize) -> Recommendations {
         if size <= 0 {
             panic!("Size must be greater than 0");
         }
@@ -149,7 +129,7 @@ impl Recommendations {
         Recommendations { size: size,  items: temp }
     }
 
-    pub fn insert_or_skip(&mut self, item: String, score: f32) {
+    pub(crate) fn insert_or_skip(&mut self, item: String, score: f32) {
         if score < self.items[self.size - 1].1 {
             return;
         }
@@ -158,7 +138,7 @@ impl Recommendations {
         self.items.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap());
     }
 
-    pub fn get_recommendations(&self) -> Vec<String> {
+    pub(crate) fn get_recommendations(&self) -> Vec<String> {
         let mut temp = Vec::new();
         for (item, _) in &self.items {
             temp.push(item.clone());

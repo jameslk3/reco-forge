@@ -12,7 +12,7 @@ use serde_json::from_reader;
 ///
 /// @return `Ok()` with the vector of data encapsulated in a `Result` enum [OR] `Err()` if the
 /// file didn't open or didn't deserialize
-pub fn extract_data(file_name: &String) -> Result<HashMap<Data, Option<Tensor>>, ()> {
+pub(crate) fn extract_data(file_name: &String) -> Result<HashMap<Data, Option<Tensor>>, ()> {
     // Opens file
     let file_wrapped = File::open(file_name);
     if file_wrapped.is_err() {
@@ -42,7 +42,7 @@ use anyhow::{Error as E, Result};
 use candle::Tensor;
 use clap::Parser;
 
-pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMap<Data, Option<Tensor>>> {
+pub(crate) fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMap<Data, Option<Tensor>>> {
     let args = Args::parse();
 
     let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
@@ -95,11 +95,12 @@ pub fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMa
     Ok(new_map)
 }
 
-pub fn find_embedding(data: &HashMap<Data, Option<Tensor>>, item_name: &String) -> Option<Tensor> {
+pub(crate) fn find_embedding(data: &HashMap<Data, Option<Tensor>>, item_name: &String) -> Result<Tensor> {
+    let item_name_cleaned = item_name.trim().to_lowercase();
     for (key, value) in data.iter() {
-        if key.name == *item_name {
-            return Some(value.clone().unwrap());
+        if key.name.to_lowercase() == item_name_cleaned {
+            return Ok(value.clone().unwrap());
         }
     }
-    None
+    Err(E::msg("Item not found"))
 }
