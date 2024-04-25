@@ -2,7 +2,8 @@
 name = "reco-forge"
 version = "0.1.0"
 authors = ["Juno Kim <jkim826@illinois.edu>", "James Kendrick <jameslk3@illinois.edu>"]
-decription = "Natural language driven recommendation generator"
+description = "Natural language driven recommendation generator"
+license = "TODO"
 edition = "2021"
 repository = "https://github.com/jameslk3/reco-forge"
 include = ["src/**/*", "sample-json/movies/movies_clean_mini.json", "examples/**/*"]
