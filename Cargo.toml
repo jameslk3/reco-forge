@@ -3,6 +3,7 @@ name = "reco-forge"
 version = "0.1.0"
 authors = ["Juno Kim <jkim826@illinois.edu>", "James Kendrick <jameslk3@illinois.edu>"]
 description = "Natural language driven recommendation generator"
+license = "MIT OR Apache-2.0"
 edition = "2021"
 repository = "https://github.com/jameslk3/reco-forge"
 include = ["src/**/*", "sample-json/movies/movies_clean_mini.json", "examples/**/*"]
