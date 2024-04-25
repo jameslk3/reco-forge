@@ -6,7 +6,7 @@ description = "Natural language driven recommendation generator"
 license = "MIT OR Apache-2.0"
 edition = "2021"
 repository = "https://github.com/jameslk3/reco-forge"
-include = ["src/**/*", "sample-json/movies/movies_clean_mini.json", "examples/**/*"]
+include = ["src/**/*", "sample-json/movies/movies_clean_mini.json", "examples/*"]
 
 [dependencies]
 anyhow = "1.0.75"
