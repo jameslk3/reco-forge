@@ -1,7 +1,11 @@
 [package]
 name = "reco-forge"
 version = "0.1.0"
+authors = ["Juno Kim <jkim826@illinois.edu>", "James Kendrick <jameslk3@illinois.edu>"]
+decription = "Natural language driven recommendation generator"
 edition = "2021"
+repository = "https://github.com/jameslk3/reco-forge"
+include = ["src/**/*", "sample-json/movies/movies_clean_mini.json", "examples/**/*"]
 
 [dependencies]
 anyhow = "1.0.75"
@@ -10,11 +14,17 @@ candle-transformers = "0.3.1"
 clap = "4.4.11"
 hf-hub = "0.3.2"
 candle = { version = "0.3.1", package = "candle-core" }
-
 serde = "1.0"
-serde_derive = "1.0"
 serde_json = "1.0.108"
 tokenizers = "0.15.0"
 
 [lib]
 path = "src/lib.rs"
+
+[[example]]
+name = "description"
+path = "examples/desc_example.rs"
+
+[[example]]
+name = "item"
+path = "examples/item_example.rs"

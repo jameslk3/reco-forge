@@ -29,10 +29,6 @@ pub(crate) fn create_input_embedding(description_input: &String) -> Result<Optio
         .encode_batch(summaries.to_vec(), true)
         .map_err(E::msg)?;
 
-    for x in 0..tokens.len() {
-        println!("{:?}", tokens[x].get_tokens().join(" "));
-    }
-
     // Convert the tokens to tensors
     let token_ids = tokens
         .iter()
@@ -44,22 +40,22 @@ pub(crate) fn create_input_embedding(description_input: &String) -> Result<Optio
 
     let token_ids = Tensor::stack(&token_ids, 0)?;
     let token_type_ids = token_ids.zeros_like()?;
-    println!("running inference on batch {:?}", token_ids.shape());
+    // println!("running inference on batch {:?}", token_ids.shape());
 
     // Get the embeddings
     let embeddings = model.forward(&token_ids, &token_type_ids)?;
-    println!("generated embeddings {:?}", embeddings.shape());
+    // println!("generated embeddings {:?}", embeddings.shape());
 
     // Pool the embeddings
     let (_n_sentence, n_tokens, _hidden_size) = embeddings.dims3()?;
     let embeddings = (embeddings.sum(1)? / (n_tokens as f64))?;
     let embeddings = normalize_l2(&embeddings)?;
-    println!("pooled embeddings {:?}", embeddings.shape());
+    // println!("pooled embeddings {:?}", embeddings.shape());
 
     Ok(Some(embeddings.get(0).unwrap()))
 }
 
-pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, input_embedding: &Tensor, tags_input: &String, num_recommendations: usize) -> Result<Vec<String>, ()> {
+pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, raw_input: Option<&String>, input_embedding: &Tensor, tags_input: &String, num_recommendations: usize) -> Result<Vec<String>, ()> {
     
     // Closure to filter out recommendations based on tags
     let tags_to_match = tags_input.split(',').collect::<Vec<&str>>().iter().map(|x| x.trim().to_lowercase()).collect::<Vec<String>>();
@@ -85,10 +81,17 @@ pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, input_em
     }
     let a_dot_a = a_dot_a_wrapped.unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
 
+    // Clean the input if it is an item because we want to make sure not to include the same item in the recommendations
+    let input_cleaned = match raw_input {
+        Some(input) => Some(input.trim().to_lowercase()),
+        None => None
+    };
+    
     // Compare the input with all the embeddings in the data and store the recommendations
     let mut recommendations = Recommendations::new(num_recommendations);
     for (key, value) in data.iter() {
-        if !through_filter(&key.tags) {
+        // Skip case
+        if (input_cleaned.is_some() && input_cleaned.as_ref() == Some(&key.name.to_lowercase())) || !through_filter(&key.tags) {
             continue;
         }
         let map_embedding_wrapped = value.clone();

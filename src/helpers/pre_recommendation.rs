@@ -42,7 +42,7 @@ use anyhow::{Error as E, Result};
 use candle::Tensor;
 use clap::Parser;
 
-pub(crate) fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<HashMap<Data, Option<Tensor>>> {
+pub(crate) fn insert_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result<()> {
     let args = Args::parse();
 
     let (model, mut tokenizer) = args.build_model_and_tokenizer()?;
@@ -72,27 +72,24 @@ pub(crate) fn get_embeddings(data: &mut HashMap<Data, Option<Tensor>>) -> Result
 
     let token_ids = Tensor::stack(&token_ids, 0)?;
     let token_type_ids = token_ids.zeros_like()?;
-    println!("running inference on batch {:?}", token_ids.shape());
+    // println!("running inference on batch {:?}", token_ids.shape());
 
     // Get the embeddings
     let embeddings = model.forward(&token_ids, &token_type_ids)?;
-    println!("generated embeddings {:?}", embeddings.shape());
+    // println!("generated embeddings {:?}", embeddings.shape());
 
     // Pool the embeddings
     let (_n_sentence, n_tokens, _hidden_size) = embeddings.dims3()?;
     let embeddings = (embeddings.sum(1)? / (n_tokens as f64))?;
     let embeddings = normalize_l2(&embeddings)?;
-    println!("pooled embeddings {:?}", embeddings.shape());
+    // println!("pooled embeddings {:?}", embeddings.shape());
 
     // Insert embeddings into data
-    let mut counter: usize = 0;
-    let mut new_map: HashMap<Data, Option<Tensor>> = HashMap::new();
-    for (key, _value) in data.iter() {
-        new_map.insert(key.clone(), Some(embeddings.get(counter).unwrap()));
-        counter += 1;
+    for (i, (_key, value)) in data.iter_mut().enumerate() {
+        *value = Some(embeddings.get(i)?);
     }
 
-    Ok(new_map)
+    Ok(())
 }
 
 pub(crate) fn find_embedding(data: &HashMap<Data, Option<Tensor>>, item_name: &String) -> Result<Tensor> {
