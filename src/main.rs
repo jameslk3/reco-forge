@@ -1,4 +1,4 @@
-use reco_forge::{create_model, pass_description, Data, Tensor, HashMap};
+use reco_forge::{create_model, pass_item, Data, Tensor, HashMap};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut path = String::new();
@@ -32,7 +32,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     query = query.trim().to_string();
     println!();
 
-    let recommendations = pass_description(&model, query, tags_input, 10);
+    let recommendations = pass_item(&model, query, tags_input, 10);
     match recommendations {
         Ok(recommendations) => {
             println!("Recommendations:");
