@@ -54,7 +54,7 @@ so check the github repositoy (https://github.com/jameslk3/reco-forge) to find t
         Ok(recommendations) => {
             println!("Recommendations:");
             for recommendation in recommendations {
-                println!("{}", recommendation);
+                println!("{}% {}", (recommendation.1 * 100.0).round(), recommendation.0);
             }
         },
         Err(_) => println!("No recommendations found, either an error occurred or the item you inputted is not in the dataset. Please try again."),

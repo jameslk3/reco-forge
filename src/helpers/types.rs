@@ -138,10 +138,10 @@ impl Recommendations {
         self.items.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap());
     }
 
-    pub(crate) fn get_recommendations(&self) -> Vec<String> {
+    pub(crate) fn get_recommendations(&self) -> Vec<(String, f32)> {
         let mut temp = Vec::new();
-        for (item, _) in &self.items {
-            temp.push(item.clone());
+        for (item, sim_score) in &self.items {
+            temp.push((item.clone(), sim_score.clone()));
         }
         temp
     }

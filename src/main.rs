@@ -37,7 +37,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         Ok(recommendations) => {
             println!("Recommendations:");
             for recommendation in recommendations {
-                println!("{}", recommendation);
+                println!("{}% {}", (recommendation.1 * 100.0).round(), recommendation.0);
             }
         },
         Err(_) => println!("No recommendations found"),

@@ -1,10 +1,10 @@
-use std::collections::HashMap;
+use super::types::Data;
+use super::types::Recommendations;
+use crate::helpers::{types::Args, utils::normalize_l2};
 use anyhow::{Error as E, Result};
 use candle::Tensor;
 use clap::Parser;
-use crate::helpers::{types::Args, utils::normalize_l2};
-use super::types::Data;
-use super::types::Recommendations;
+use std::collections::HashMap;
 
 /// Receives the input of what the user wants suggested as a String.
 /// The function will return the embedding of the String in question.
@@ -55,17 +55,32 @@ pub(crate) fn create_input_embedding(description_input: &String) -> Result<Optio
     Ok(Some(embeddings.get(0).unwrap()))
 }
 
-pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, raw_input: Option<&String>, input_embedding: &Tensor, tags_input: &String, num_recommendations: usize) -> Result<Vec<String>, ()> {
-    
+pub(crate) fn get_recommendations(
+    data: &HashMap<Data, Option<Tensor>>,
+    raw_input: Option<&String>,
+    input_embedding: &Tensor,
+    tags_input: &String,
+    num_recommendations: usize,
+) -> Result<Vec<(String, f32)>, ()> {
     // Closure to filter out recommendations based on tags
-    let tags_to_match = tags_input.split(',').collect::<Vec<&str>>().iter().map(|x| x.trim().to_lowercase()).collect::<Vec<String>>();
+    let tags_to_match = tags_input
+        .split(',')
+        .collect::<Vec<&str>>()
+        .iter()
+        .map(|x| x.trim().to_lowercase())
+        .collect::<Vec<String>>();
     let through_filter = |tags: &Vec<String>| -> bool {
         if tags_input == &String::from("NONE") {
             true
         } else {
             let mut through_filter = true;
             for tag_to_match in tags_to_match.iter() {
-                if !tags.iter().map(|x| x.to_lowercase()).collect::<Vec<String>>().contains(&String::from(tag_to_match)) {
+                if !tags
+                    .iter()
+                    .map(|x| x.to_lowercase())
+                    .collect::<Vec<String>>()
+                    .contains(&String::from(tag_to_match))
+                {
                     through_filter = false;
                     break;
                 }
@@ -79,19 +94,26 @@ pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, raw_inpu
     if a_dot_a_wrapped.is_err() {
         return Err(());
     }
-    let a_dot_a = a_dot_a_wrapped.unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
+    let a_dot_a = a_dot_a_wrapped
+        .unwrap()
+        .sum_all()
+        .unwrap()
+        .to_scalar::<f32>()
+        .unwrap();
 
     // Clean the input if it is an item because we want to make sure not to include the same item in the recommendations
     let input_cleaned = match raw_input {
         Some(input) => Some(input.trim().to_lowercase()),
-        None => None
+        None => None,
     };
-    
+
     // Compare the input with all the embeddings in the data and store the recommendations
     let mut recommendations = Recommendations::new(num_recommendations);
     for (key, value) in data.iter() {
         // Skip case
-        if (input_cleaned.is_some() && input_cleaned.as_ref() == Some(&key.name.to_lowercase())) || !through_filter(&key.tags) {
+        if (input_cleaned.is_some() && input_cleaned.as_ref() == Some(&key.name.to_lowercase()))
+            || !through_filter(&key.tags)
+        {
             continue;
         }
         let map_embedding_wrapped = value.clone();
@@ -99,10 +121,20 @@ pub(crate) fn get_recommendations(data: &HashMap<Data, Option<Tensor>>, raw_inpu
             return Err(());
         }
         let map_embedding = map_embedding_wrapped.unwrap();
-        let b_dot_b = (&map_embedding * &map_embedding).unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
-        let a_dot_b = (input_embedding * &map_embedding).unwrap().sum_all().unwrap().to_scalar::<f32>().unwrap();
+        let b_dot_b = (&map_embedding * &map_embedding)
+            .unwrap()
+            .sum_all()
+            .unwrap()
+            .to_scalar::<f32>()
+            .unwrap();
+        let a_dot_b = (input_embedding * &map_embedding)
+            .unwrap()
+            .sum_all()
+            .unwrap()
+            .to_scalar::<f32>()
+            .unwrap();
         let similarity = &a_dot_b / (&a_dot_a * &b_dot_b).sqrt();
         recommendations.insert_or_skip(key.name.clone(), similarity);
     }
     return Ok(recommendations.get_recommendations());
-} 
+}

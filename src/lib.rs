@@ -48,6 +48,9 @@
 //!    }
 //!    Ok(())
 //!}
+//! 
+//! Examples are also provided in the examples folder of the git repository at https://github.com/jameslk3/reco-forge.
+//! 
 //! ```
 //! Required JSON file format:
 //! ```json
@@ -123,7 +126,7 @@ pub fn create_model(file_path: &String) -> Result<HashMap<Data, Option<Tensor>>,
 /// 
 /// # Returns
 /// ```no_run
-///   	* Result<Vec<String>, ()> - The recommendations if they were found, otherwise None
+///   	* Result<Vec<String, f32>, ()> - A vector of (Item name, similarity) tuples if recommendations were found, otherwise Err
 /// ```
 /// 
 /// # Example
@@ -133,13 +136,13 @@ pub fn create_model(file_path: &String) -> Result<HashMap<Data, Option<Tensor>>,
 /// 		Ok(recommendations) => {
 /// 			println!("Recommendations:");
 /// 			for recommendation in recommendations {
-/// 				println!("{}", recommendation);
+/// 				println!("{}% {}", (recommendation.1 * 100.0).round(), recommendation.0);
 /// 			}
 /// 		},
 /// 		Err(_) => println!("No recommendations found"),
 /// 	}
 /// ```
-pub fn pass_description(node_embeddings: &HashMap<Data, Option<Tensor>>, description_input: String, tags_input: String, num_recommendations: usize) -> Result<Vec<String>, ()> {
+pub fn pass_description(node_embeddings: &HashMap<Data, Option<Tensor>>, description_input: String, tags_input: String, num_recommendations: usize) -> Result<Vec<(String, f32)>, ()> {
 
     // When we are given a description, we need to create an embedding for it and then find recommendations based on that
     let input_embedding = create_input_embedding(&description_input).unwrap().unwrap();
@@ -160,7 +163,7 @@ pub fn pass_description(node_embeddings: &HashMap<Data, Option<Tensor>>, descrip
 /// 
 /// # Returns
 /// ```no_run
-///  	* Result<Vec<String>, ()> - The recommendations if they were found, otherwise Err
+///   	* Result<Vec<String, f32>, ()> - A vector of (Item name, similarity) tuples if recommendations were found, otherwise Err
 /// ```
 /// 
 /// # Example
@@ -170,13 +173,13 @@ pub fn pass_description(node_embeddings: &HashMap<Data, Option<Tensor>>, descrip
 /// 		Ok(recommendations) => {
 /// 			println!("Recommendations:");
 /// 			for recommendation in recommendations {
-/// 				println!("{}", recommendation);
+///                 println!("{}% {}", (recommendation.1 * 100.0).round(), recommendation.0);
 /// 			}
 /// 		},
 /// 		Err(_) => println!("No recommendations found"),
 /// 	}
 /// ```
-pub fn pass_item(node_embeddings: &HashMap<Data, Option<Tensor>>, item: String, tags_input: String, num_recommendations: usize) -> Result<Vec<String>, ()> {
+pub fn pass_item(node_embeddings: &HashMap<Data, Option<Tensor>>, item: String, tags_input: String, num_recommendations: usize) -> Result<Vec<(String, f32)>, ()> {
 
     // When we want to find items similar to a specific item, we need to make sure that the item is in the embeddings and then retrieve the embedding
     let input_embedding = {
