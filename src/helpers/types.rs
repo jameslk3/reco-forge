@@ -124,7 +124,7 @@ impl Recommendations {
         }
         let mut temp = Vec::new();
         for _ in 0..size {
-            temp.push((String::from("Couldn't find any more recommendations"), -1.1));
+            temp.push((String::from("Couldn't find any more recommendations"), 0.0));
         }
         Recommendations { size: size,  items: temp }
     }
