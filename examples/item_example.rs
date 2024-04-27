@@ -4,7 +4,7 @@ use reco_forge::{create_model, pass_item, Data, Tensor, HashMap};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("This is an example of how you can find similar items to another item in a dataset. You must input an item in the dataset for this example to work
-so check the github repositoy (https://github.com/jameslk3/reco-forge) to find the dataset used (sample-json/movies/movies_clean_mini.json).");
+so check the github repositoy (https://github.com/jameslk3/reco-forge) to find the dataset used (sample-json/movies/movies_clean_10.json).");
     println!("Either input a path to your JSON file or press enter to use the default dataset (small dataset on movies).");
     println!("Creating the model may take a while, please be patient.");
     println!();
@@ -18,7 +18,7 @@ so check the github repositoy (https://github.com/jameslk3/reco-forge) to find t
         path = path.trim().to_string();
         if path.is_empty() {
             println!("No file path entered, using default dataset (movies).");
-            path = "sample-json/movies/movies_clean_mini.json".to_string();
+            path = "sample-json/movies/movies_clean_10.json".to_string();
             if let Ok(model) = create_model(&path) {
                 model_wrapped = Ok(model);
                 break;

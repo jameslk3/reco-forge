@@ -21,7 +21,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     let model: HashMap<Data, Option<Tensor>> = model_wrapped.unwrap();
 
-    println!("Input wanted tags. If you don't want to filter by tags, enter NONE");
+    println!("Input tags. If you don't want to filter by tags, enter NONE");
     let mut tags_input: String = String::new();
     std::io::stdin().read_line(&mut tags_input).expect("Failed to read line");
     tags_input = tags_input.trim().to_string();

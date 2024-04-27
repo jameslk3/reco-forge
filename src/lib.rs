@@ -113,6 +113,7 @@ pub fn create_model(file_path: &String) -> Result<HashMap<Data, Option<Tensor>>,
         return Err(("File path is not valid or file cannot be deserialized, please input the correct file path and try again:").to_string());
     }
     let mut nodes: HashMap<Data, Option<Tensor>> = nodes_wrapped.unwrap();
+    println!("Creating model, please be patient...");
     if let Ok(_) = insert_embeddings(&mut nodes) {
         return Ok(nodes);
     }

@@ -5,7 +5,6 @@ use reco_forge::{create_model, pass_description, Data, Tensor, HashMap};
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("This is an example of how you can describe something and find similar items to it in a dataset.");
     println!("Either input a path to your JSON file or press enter to use the default dataset (small dataset on movies).");
-    println!("Creating the model may take a while, please be patient.");
     println!();
 
     let model_wrapped: Result<HashMap<Data, Option<Tensor>>, ()>;
@@ -16,7 +15,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     loop {
         path = path.trim().to_string();
         if path.is_empty() {
-            path = "sample-json/movies/movies_clean_mini.json".to_string();
+            path = "sample-json/movies/movies_clean_10.json".to_string();
             if let Ok(model) = create_model(&path) {
                 model_wrapped = Ok(model);
                 break;

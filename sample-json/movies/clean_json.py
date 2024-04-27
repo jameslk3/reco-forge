@@ -7,7 +7,7 @@ with open(filename, "r") as f:
     data = json.load(f)
     final_json = []
     summary_lengths = []
-    for movie in data[:10]:
+    for movie in data[:50]:
 
         keywords_list = ast.literal_eval(movie["keywords"])
         summary = set()
@@ -27,8 +27,5 @@ with open(filename, "r") as f:
             "tags": [genre["name"] for genre in ast.literal_eval(movie["genres"])]
         })
 
-    with open("movies_clean_mini.json", "w") as output_file:
+    with open("movies_clean_50.json", "w") as output_file:
         json.dump(final_json, output_file, indent=2)
-
-    summary_lengths.sort()
-    print("Summary lengths: ", summary_lengths[490:])
