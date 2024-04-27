@@ -55,7 +55,7 @@
 //!    Ok(())
 //!}
 //! 
-//! Examples are also provided in the examples folder of the git repository at https://github.com/jameslk3/reco-forge.
+//! // Examples are also provided in the examples folder of the git repository at https://github.com/jameslk3/reco-forge.
 //! 
 //! ```
 //! Required JSON file format:

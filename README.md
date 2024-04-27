@@ -4,17 +4,18 @@ Group members: Juno Kim (jkim826), James Kendrick (jameslk3)
 
 ---
 
-# How to run our project
+## How to run our project
 
 ### Clone git repo (recommended):
+- Clone the github repository
 - Run "cargo run --example description" or "cargo run --example item"
 - You can also work with the other provided JSON files in the sample-json directory
 
-### Install crate:
-- Add the following line to your Cargo.toml file: reco-forge = "=0.1.1" or run "cargo add reco-forge@=0.1.1"
-- Follow the documentation [here](https://docs.rs/reco-forge/0.1.1/reco_forge/) to write your own code or simply copy the example
+### Install the crate:
+- Add the following line to your Cargo.toml file: reco-forge = "0.1.2" or run "cargo add reco-forge"
+- Follow the documentation [here](https://docs.rs/reco-forge/0.1.2/reco_forge/) to write your own code or simply copy the example
 - Either create your own JSON file following the requirements or use one in the git repo under sample-json
-- We recommend sample-json/movies/movies_clean_mini.json because it provides the highest quality descriptions and is also small (large or even medium sized files take very long)
+- We recommend sample-json/movies/movies_clean_10.json because it provides the highest quality descriptions and is also small (large or even medium sized files take very long)
 
 ---
 
