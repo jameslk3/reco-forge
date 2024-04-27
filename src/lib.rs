@@ -1,5 +1,11 @@
 //! This crate provides an interface for users to turn any dataset with titles and descriptions into a recommendation system. It uses the BERT model to create embeddings for each item in the dataset and then finds recommendations based on the user's input.
 //! 
+//! To run the examples, you can clone the git repository at <https://github.com/jameslk3/reco-forge> and then run the following commands:
+//! ```bash
+//! cargo run --example description
+//! cargo run --example item
+//! ```
+//! 
 //! Example usage:
 //! ```no_run
 //! use reco_forge::{create_model, pass_description, Data, Tensor, HashMap}; // Can also use pass_item
@@ -41,7 +47,7 @@
 //!        Ok(recommendations) => {
 //!            println!("Recommendations:");
 //!            for recommendation in recommendations {
-//!                println!("{}", recommendation);
+//!                println!("{}% {}", (recommendation.1 * 100.0).round(), recommendation.0);
 //!            }
 //!        },
 //!        Err(_) => println!("No recommendations found"),
